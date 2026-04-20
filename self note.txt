@@ -1,0 +1,15 @@
+#for project initiation
+uv init .
+
+# Then craete requirements.txt
+
+#Next need to craete virtual env
+uv venv >It will automatically carete a folder .venv
+.venv\Scripts\activate > It will activate the virtual env
+
+#For installing the requirements
+uv add -r requirements.txt
+
+#Create a file .env> add openapi apy key
+
+# uv run app.py
