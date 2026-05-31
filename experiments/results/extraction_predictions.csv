@@ -1,0 +1,601 @@
+case_id,category,symptom_description,method,gold_standard_symptoms,predicted_symptoms,true_positive,false_positive,false_negative,exact_match,latency_seconds
+001,Common acute symptoms,I have had a fever and headache since last night.,rule_based_only,fever; headache,headache; fever,2,0,0,True,0.001
+002,Common acute symptoms,My throat hurts and I have a fever.,rule_based_only,sore throat; fever,fever,1,0,1,False,0.0001
+003,Common acute symptoms,I feel nauseous and I have been vomiting today.,rule_based_only,nausea; vomiting,nausea,1,0,1,False,0.0001
+004,Common acute symptoms,I have stomach pain with nausea.,rule_based_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0
+005,Common acute symptoms,I woke up with headache and body pain.,rule_based_only,headache; joint pain,joint pain; headache,2,0,0,True,0.0
+006,Common acute symptoms,"I have a runny nose, cough, and mild fever.",rule_based_only,runny nose; cough; fever,fever,1,0,2,False,0.0
+007,Common acute symptoms,My eyes are watery and I keep sneezing.,rule_based_only,watery eyes; sneezing,none,0,0,2,False,0.0002
+008,Common acute symptoms,I have chills and a high temperature.,rule_based_only,chills; fever,fever,1,0,1,False,0.0
+009,Common acute symptoms,I feel dizzy when I stand up.,rule_based_only,dizziness,none,0,0,1,False,0.0
+010,Common acute symptoms,I have pain in my lower back after lifting a box.,rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0
+011,Common acute symptoms,"Since yesterday, i have had a fever and headache since last night.",rule_based_only,fever; headache,headache; fever,2,0,0,True,0.0001
+012,Common acute symptoms,"Since yesterday, my throat hurts and I have a fever.",rule_based_only,sore throat; fever,fever,1,0,1,False,0.0001
+013,Common acute symptoms,"Since yesterday, i feel nauseous and I have been vomiting today.",rule_based_only,nausea; vomiting,nausea,1,0,1,False,0.0001
+014,Common acute symptoms,"Since yesterday, i have stomach pain with nausea.",rule_based_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0
+015,Common acute symptoms,"Since yesterday, i woke up with headache and body pain.",rule_based_only,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+016,Common acute symptoms,"Since yesterday, i have a runny nose, cough, and mild fever.",rule_based_only,runny nose; cough; fever,fever,1,0,2,False,0.0001
+017,Common acute symptoms,"Since yesterday, my eyes are watery and I keep sneezing.",rule_based_only,watery eyes; sneezing,none,0,0,2,False,0.0001
+018,Common acute symptoms,"Since yesterday, i have chills and a high temperature.",rule_based_only,chills; fever,fever,1,0,1,False,0.0001
+019,Common acute symptoms,"Since yesterday, i feel dizzy when I stand up.",rule_based_only,dizziness,none,0,0,1,False,0.0
+020,Common acute symptoms,"Since yesterday, i have pain in my lower back after lifting a box.",rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0001
+021,Common acute symptoms,I am experiencing had a fever and headache since last night.,rule_based_only,fever; headache,headache; fever,2,0,0,True,0.0001
+022,Common acute symptoms,My throat hurts and I am experiencing a fever.,rule_based_only,sore throat; fever,fever,1,0,1,False,0.0
+023,Common acute symptoms,I feel nauseous and I am experiencing been vomiting today.,rule_based_only,nausea; vomiting,nausea,1,0,1,False,0.0
+024,Common acute symptoms,I am experiencing stomach pain with nausea.,rule_based_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0
+025,Common acute symptoms,I woke up with headache and body pain.,rule_based_only,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+026,Common acute symptoms,"I am experiencing a runny nose, cough, and mild fever.",rule_based_only,runny nose; cough; fever,fever,1,0,2,False,0.0001
+027,Common acute symptoms,My eyes are watery and I keep sneezing.,rule_based_only,watery eyes; sneezing,none,0,0,2,False,0.0
+028,Common acute symptoms,I am experiencing chills and a high temperature.,rule_based_only,chills; fever,fever,1,0,1,False,0.0
+029,Common acute symptoms,I feel dizzy when I stand up.,rule_based_only,dizziness,none,0,0,1,False,0.0
+030,Common acute symptoms,I am experiencing pain in my lower back after lifting a box.,rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0001
+031,Common acute symptoms,I have had a fever and headache since last night.,rule_based_only,fever; headache,headache; fever,2,0,0,True,0.0
+032,Common acute symptoms,My throat hurts and I have a fever.,rule_based_only,sore throat; fever,fever,1,0,1,False,0.0
+033,Common acute symptoms,Recently I feel nauseous and I have been vomiting today.,rule_based_only,nausea; vomiting,nausea,1,0,1,False,0.0001
+034,Common acute symptoms,I have stomach pain with nausea.,rule_based_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0001
+035,Common acute symptoms,I woke up with headache and body pain.,rule_based_only,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+036,Common acute symptoms,"I have a runny nose, cough, and mild fever.",rule_based_only,runny nose; cough; fever,fever,1,0,2,False,0.0001
+037,Common acute symptoms,My eyes are watery and I keep sneezing.,rule_based_only,watery eyes; sneezing,none,0,0,2,False,0.0001
+038,Common acute symptoms,I have chills and a high temperature.,rule_based_only,chills; fever,fever,1,0,1,False,0.0001
+039,Common acute symptoms,Recently I feel dizzy when I stand up.,rule_based_only,dizziness,none,0,0,1,False,0.0001
+040,Common acute symptoms,I have pain in my lower back after lifting a box.,rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0001
+041,Chronic-disease-related symptoms,My legs are swollen and I feel tired all the time.,rule_based_only,edema; fatigue,fatigue,1,0,1,False,0.0001
+042,Chronic-disease-related symptoms,I feel thirsty often and I urinate frequently.,rule_based_only,excessive thirst; frequent urination,none,0,0,2,False,0.0001
+043,Chronic-disease-related symptoms,I have been very tired and weak for several weeks.,rule_based_only,fatigue; weakness,fatigue,1,0,1,False,0.0001
+044,Chronic-disease-related symptoms,My joints hurt every morning.,rule_based_only,joint pain,none,0,0,1,False,0.0
+045,Chronic-disease-related symptoms,I have trouble sleeping almost every night.,rule_based_only,insomnia,insomnia,1,0,0,True,0.0
+046,Chronic-disease-related symptoms,I feel low mood and have poor sleep.,rule_based_only,depression; insomnia,insomnia; depression,2,0,0,True,0.0001
+047,Chronic-disease-related symptoms,I have ongoing lower back pain.,rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0
+048,Chronic-disease-related symptoms,My feet are swollen and I feel short of breath while walking.,rule_based_only,edema; dyspnea,none,0,0,2,False,0.0001
+049,Chronic-disease-related symptoms,I get frequent headaches during work.,rule_based_only,headache,none,0,0,1,False,0.0001
+050,Chronic-disease-related symptoms,I have abdominal pain after meals for many weeks.,rule_based_only,abdominal pain,abdominal pain,1,0,0,True,0.0001
+051,Chronic-disease-related symptoms,"Since yesterday, my legs are swollen and I feel tired all the time.",rule_based_only,edema; fatigue,fatigue,1,0,1,False,0.0001
+052,Chronic-disease-related symptoms,"Since yesterday, i feel thirsty often and I urinate frequently.",rule_based_only,excessive thirst; frequent urination,none,0,0,2,False,0.0001
+053,Chronic-disease-related symptoms,"Since yesterday, i have been very tired and weak for several weeks.",rule_based_only,fatigue; weakness,fatigue,1,0,1,False,0.0001
+054,Chronic-disease-related symptoms,"Since yesterday, my joints hurt every morning.",rule_based_only,joint pain,none,0,0,1,False,0.0001
+055,Chronic-disease-related symptoms,"Since yesterday, i have trouble sleeping almost every night.",rule_based_only,insomnia,insomnia,1,0,0,True,0.0001
+056,Chronic-disease-related symptoms,"Since yesterday, i feel low mood and have poor sleep.",rule_based_only,depression; insomnia,insomnia; depression,2,0,0,True,0.0001
+057,Chronic-disease-related symptoms,"Since yesterday, i have ongoing lower back pain.",rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0001
+058,Chronic-disease-related symptoms,"Since yesterday, my feet are swollen and I feel short of breath while walking.",rule_based_only,edema; dyspnea,none,0,0,2,False,0.0001
+059,Chronic-disease-related symptoms,"Since yesterday, i get frequent headaches during work.",rule_based_only,headache,none,0,0,1,False,0.0001
+060,Chronic-disease-related symptoms,"Since yesterday, i have abdominal pain after meals for many weeks.",rule_based_only,abdominal pain,abdominal pain,1,0,0,True,0.0001
+061,Chronic-disease-related symptoms,My legs are swollen and I feel tired all the time.,rule_based_only,edema; fatigue,fatigue,1,0,1,False,0.0001
+062,Chronic-disease-related symptoms,I feel thirsty often and I urinate frequently.,rule_based_only,excessive thirst; frequent urination,none,0,0,2,False,0.0001
+063,Chronic-disease-related symptoms,I am experiencing been very tired and weak for several weeks.,rule_based_only,fatigue; weakness,fatigue,1,0,1,False,0.0001
+064,Chronic-disease-related symptoms,My joints hurt every morning.,rule_based_only,joint pain,none,0,0,1,False,0.0001
+065,Chronic-disease-related symptoms,I am experiencing trouble sleeping almost every night.,rule_based_only,insomnia,insomnia,1,0,0,True,0.0001
+066,Chronic-disease-related symptoms,I feel low mood and have poor sleep.,rule_based_only,depression; insomnia,insomnia; depression,2,0,0,True,0.0001
+067,Chronic-disease-related symptoms,I am experiencing ongoing lower back pain.,rule_based_only,lower back pain,lower back pain,1,0,0,True,0.0001
+068,Chronic-disease-related symptoms,My feet are swollen and I feel short of breath while walking.,rule_based_only,edema; dyspnea,none,0,0,2,False,0.0001
+069,Chronic-disease-related symptoms,I get frequent headaches during work.,rule_based_only,headache,none,0,0,1,False,0.0
+070,Chronic-disease-related symptoms,I am experiencing abdominal pain after meals for many weeks.,rule_based_only,abdominal pain,abdominal pain,1,0,0,True,0.0001
+071,Chronic-disease-related symptoms,My legs are swollen and Recently I feel tired all the time.,rule_based_only,edema; fatigue,fatigue,1,0,1,False,0.0001
+072,Chronic-disease-related symptoms,Recently I feel thirsty often and I urinate frequently.,rule_based_only,excessive thirst; frequent urination,none,0,0,2,False,0.0001
+073,Chronic-disease-related symptoms,I have been very tired and weak for several weeks.,rule_based_only,fatigue; weakness,fatigue,1,0,1,False,0.0
+074,Chronic-disease-related symptoms,My joints hurt every morning.,rule_based_only,joint pain,none,0,0,1,False,0.0
+075,Chronic-disease-related symptoms,I have trouble sleeping almost every night.,rule_based_only,insomnia,insomnia,1,0,0,True,0.0
+076,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",rule_based_only,dizziness; weakness,none,0,0,2,False,0.0
+077,Colloquial symptom descriptions,My head is pounding and I feel hot.,rule_based_only,headache; fever,none,0,0,2,False,0.0
+078,Colloquial symptom descriptions,I feel like throwing up.,rule_based_only,vomiting,none,0,0,1,False,0.0
+079,Colloquial symptom descriptions,I cannot catch my breath.,rule_based_only,dyspnea,none,0,0,1,False,0.0
+080,Colloquial symptom descriptions,My chest feels tight.,rule_based_only,chest pain,none,0,0,1,False,0.0
+081,Colloquial symptom descriptions,I have no energy and feel drained.,rule_based_only,fatigue,none,0,0,1,False,0.0
+082,Colloquial symptom descriptions,My belly is hurting badly.,rule_based_only,abdominal pain,none,0,0,1,False,0.0
+083,Colloquial symptom descriptions,I feel down and cannot sleep well.,rule_based_only,depression; insomnia,insomnia,1,0,1,False,0.0
+084,Colloquial symptom descriptions,My body aches all over.,rule_based_only,joint pain,none,0,0,1,False,0.0
+085,Colloquial symptom descriptions,I feel shaky and lightheaded.,rule_based_only,dizziness; weakness,none,0,0,2,False,0.0
+086,Colloquial symptom descriptions,"Since yesterday, i just feel off, dizzy, and weak.",rule_based_only,dizziness; weakness,none,0,0,2,False,0.0001
+087,Colloquial symptom descriptions,"Since yesterday, my head is pounding and I feel hot.",rule_based_only,headache; fever,none,0,0,2,False,0.0001
+088,Colloquial symptom descriptions,"Since yesterday, i feel like throwing up.",rule_based_only,vomiting,none,0,0,1,False,0.0
+089,Colloquial symptom descriptions,"Since yesterday, i cannot catch my breath.",rule_based_only,dyspnea,none,0,0,1,False,0.0
+090,Colloquial symptom descriptions,"Since yesterday, my chest feels tight.",rule_based_only,chest pain,none,0,0,1,False,0.0001
+091,Colloquial symptom descriptions,"Since yesterday, i have no energy and feel drained.",rule_based_only,fatigue,none,0,0,1,False,0.0001
+092,Colloquial symptom descriptions,"Since yesterday, my belly is hurting badly.",rule_based_only,abdominal pain,none,0,0,1,False,0.0
+093,Colloquial symptom descriptions,"Since yesterday, i feel down and cannot sleep well.",rule_based_only,depression; insomnia,insomnia,1,0,1,False,0.0001
+094,Colloquial symptom descriptions,"Since yesterday, my body aches all over.",rule_based_only,joint pain,none,0,0,1,False,0.0
+095,Colloquial symptom descriptions,"Since yesterday, i feel shaky and lightheaded.",rule_based_only,dizziness; weakness,none,0,0,2,False,0.0001
+096,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",rule_based_only,dizziness; weakness,none,0,0,2,False,0.0
+097,Colloquial symptom descriptions,My head is pounding and I feel hot.,rule_based_only,headache; fever,none,0,0,2,False,0.0
+098,Colloquial symptom descriptions,I feel like throwing up.,rule_based_only,vomiting,none,0,0,1,False,0.0
+099,Colloquial symptom descriptions,I cannot catch my breath.,rule_based_only,dyspnea,none,0,0,1,False,0.0
+100,Colloquial symptom descriptions,My chest feels tight.,rule_based_only,chest pain,none,0,0,1,False,0.0
+101,Colloquial symptom descriptions,I am experiencing no energy and feel drained.,rule_based_only,fatigue,none,0,0,1,False,0.0001
+102,Colloquial symptom descriptions,My belly is hurting badly.,rule_based_only,abdominal pain,none,0,0,1,False,0.0
+103,Colloquial symptom descriptions,I feel down and cannot sleep well.,rule_based_only,depression; insomnia,insomnia,1,0,1,False,0.0
+104,Colloquial symptom descriptions,My body aches all over.,rule_based_only,joint pain,none,0,0,1,False,0.0
+105,Colloquial symptom descriptions,I feel shaky and lightheaded.,rule_based_only,dizziness; weakness,none,0,0,2,False,0.0
+106,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",rule_based_only,dizziness; weakness,none,0,0,2,False,0.0
+107,Colloquial symptom descriptions,My head is pounding and Recently I feel hot.,rule_based_only,headache; fever,none,0,0,2,False,0.0001
+108,Colloquial symptom descriptions,Recently I feel like throwing up.,rule_based_only,vomiting,none,0,0,1,False,0.0
+109,Colloquial symptom descriptions,I cannot catch my breath.,rule_based_only,dyspnea,none,0,0,1,False,0.0001
+110,Colloquial symptom descriptions,My chest feels tight.,rule_based_only,chest pain,none,0,0,1,False,0.0
+111,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness.",rule_based_only,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0001
+112,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue.",rule_based_only,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+113,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness.",rule_based_only,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+114,Multi-symptom descriptions,I have lower back pain and pain in my joints.,rule_based_only,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+115,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue.",rule_based_only,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+116,Multi-symptom descriptions,"I have fever, chills, and vomiting.",rule_based_only,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0001
+117,Multi-symptom descriptions,"My legs are swollen, and I feel chest tightness.",rule_based_only,edema; chest pain,none,0,0,2,False,0.0001
+118,Multi-symptom descriptions,"I have headache, dizziness, and nausea.",rule_based_only,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0
+119,Multi-symptom descriptions,"I feel tired, weak, and short of breath.",rule_based_only,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0
+120,Multi-symptom descriptions,"I have abdominal pain, nausea, and poor sleep.",rule_based_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0001
+121,Multi-symptom descriptions,"Since yesterday, i have chest pain, shortness of breath, and dizziness.",rule_based_only,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0001
+122,Multi-symptom descriptions,"Since yesterday, i have fever, cough, headache, and fatigue.",rule_based_only,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+123,Multi-symptom descriptions,"Since yesterday, i feel nausea, stomach pain, and weakness.",rule_based_only,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+124,Multi-symptom descriptions,"Since yesterday, i have lower back pain and pain in my joints.",rule_based_only,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+125,Multi-symptom descriptions,"Since yesterday, i have trouble sleeping, low mood, and fatigue.",rule_based_only,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+126,Multi-symptom descriptions,"Since yesterday, i have fever, chills, and vomiting.",rule_based_only,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0001
+127,Multi-symptom descriptions,"Since yesterday, my legs are swollen, and I feel chest tightness.",rule_based_only,edema; chest pain,none,0,0,2,False,0.0001
+128,Multi-symptom descriptions,"Since yesterday, i have headache, dizziness, and nausea.",rule_based_only,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0001
+129,Multi-symptom descriptions,"Since yesterday, i feel tired, weak, and short of breath.",rule_based_only,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0001
+130,Multi-symptom descriptions,"Since yesterday, i have abdominal pain, nausea, and poor sleep.",rule_based_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0001
+131,Multi-symptom descriptions,"I am experiencing chest pain, shortness of breath, and dizziness.",rule_based_only,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0001
+132,Multi-symptom descriptions,"I am experiencing fever, cough, headache, and fatigue.",rule_based_only,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0
+133,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness.",rule_based_only,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0
+134,Multi-symptom descriptions,I am experiencing lower back pain and pain in my joints.,rule_based_only,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+135,Multi-symptom descriptions,"I am experiencing trouble sleeping, low mood, and fatigue.",rule_based_only,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0
+136,Multi-symptom descriptions,"I am experiencing fever, chills, and vomiting.",rule_based_only,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0
+137,Multi-symptom descriptions,"My legs are swollen, and I feel chest tightness.",rule_based_only,edema; chest pain,none,0,0,2,False,0.0001
+138,Multi-symptom descriptions,"I am experiencing headache, dizziness, and nausea.",rule_based_only,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0
+139,Multi-symptom descriptions,"I feel tired, weak, and short of breath.",rule_based_only,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0
+140,Multi-symptom descriptions,"I am experiencing abdominal pain, nausea, and poor sleep.",rule_based_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0001
+141,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness.",rule_based_only,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0001
+142,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue.",rule_based_only,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0
+143,Multi-symptom descriptions,"Recently I feel nausea, stomach pain, and weakness.",rule_based_only,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0
+144,Multi-symptom descriptions,I have lower back pain and pain in my joints.,rule_based_only,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0
+145,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue.",rule_based_only,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0
+146,Multi-symptom descriptions,"I have fever, chills, and vomiting.",rule_based_only,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0
+147,Multi-symptom descriptions,"My legs are swollen, and Recently I feel chest tightness.",rule_based_only,edema; chest pain,none,0,0,2,False,0.0001
+148,Multi-symptom descriptions,"I have headache, dizziness, and nausea.",rule_based_only,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0
+149,Multi-symptom descriptions,"Recently I feel tired, weak, and short of breath.",rule_based_only,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0
+150,Multi-symptom descriptions,"I have abdominal pain, nausea, and poor sleep.",rule_based_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0
+151,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness. It has been bothering me.",rule_based_only,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0001
+152,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue. It has been bothering me.",rule_based_only,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+153,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness. It has been bothering me.",rule_based_only,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+154,Multi-symptom descriptions,I have lower back pain and pain in my joints. It has been bothering me.,rule_based_only,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+155,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue. It has been bothering me.",rule_based_only,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+156,Red-flag-like presentations,I have severe chest pain and shortness of breath.,rule_based_only,chest pain; dyspnea,chest pain,1,0,1,False,0.0001
+157,Red-flag-like presentations,I have sudden weakness on one side of my body.,rule_based_only,weakness,fatigue,0,1,1,False,0.0001
+158,Red-flag-like presentations,I have chest tightness with sweating and dizziness.,rule_based_only,chest pain; sweating; dizziness,none,0,0,3,False,0.0001
+159,Red-flag-like presentations,I have a very high fever and confusion.,rule_based_only,fever; confusion,fever,1,0,1,False,0.0
+160,Red-flag-like presentations,I have severe abdominal pain with vomiting.,rule_based_only,abdominal pain; vomiting,abdominal pain; nausea,1,1,1,False,0.0
+161,Red-flag-like presentations,I cannot breathe properly and my chest hurts.,rule_based_only,dyspnea; chest pain,none,0,0,2,False,0.0001
+162,Red-flag-like presentations,I have a terrible headache and blurry vision.,rule_based_only,headache; blurred vision,headache,1,0,1,False,0.0
+163,Red-flag-like presentations,I have fainting and chest pain.,rule_based_only,fainting; chest pain,chest pain,1,0,1,False,0.0
+164,Red-flag-like presentations,I have severe pelvic pain and dizziness.,rule_based_only,pelvic pain; dizziness,pelvic pain,1,0,1,False,0.0
+165,Red-flag-like presentations,I feel extreme weakness and cannot stand.,rule_based_only,weakness,fatigue,0,1,1,False,0.0001
+166,Red-flag-like presentations,"Since yesterday, i have severe chest pain and shortness of breath.",rule_based_only,chest pain; dyspnea,chest pain,1,0,1,False,0.0001
+167,Red-flag-like presentations,"Since yesterday, i have sudden weakness on one side of my body.",rule_based_only,weakness,fatigue,0,1,1,False,0.0001
+168,Red-flag-like presentations,"Since yesterday, i have chest tightness with sweating and dizziness.",rule_based_only,chest pain; sweating; dizziness,none,0,0,3,False,0.0001
+169,Red-flag-like presentations,"Since yesterday, i have a very high fever and confusion.",rule_based_only,fever; confusion,fever,1,0,1,False,0.0001
+170,Red-flag-like presentations,"Since yesterday, i have severe abdominal pain with vomiting.",rule_based_only,abdominal pain; vomiting,abdominal pain; nausea,1,1,1,False,0.0001
+171,Red-flag-like presentations,"Since yesterday, i cannot breathe properly and my chest hurts.",rule_based_only,dyspnea; chest pain,none,0,0,2,False,0.0001
+172,Red-flag-like presentations,"Since yesterday, i have a terrible headache and blurry vision.",rule_based_only,headache; blurred vision,headache,1,0,1,False,0.0001
+173,Red-flag-like presentations,"Since yesterday, i have fainting and chest pain.",rule_based_only,fainting; chest pain,chest pain,1,0,1,False,0.0001
+174,Red-flag-like presentations,"Since yesterday, i have severe pelvic pain and dizziness.",rule_based_only,pelvic pain; dizziness,pelvic pain,1,0,1,False,0.0001
+175,Red-flag-like presentations,"Since yesterday, i feel extreme weakness and cannot stand.",rule_based_only,weakness,fatigue,0,1,1,False,0.0001
+176,Red-flag-like presentations,I am experiencing severe chest pain and shortness of breath.,rule_based_only,chest pain; dyspnea,chest pain,1,0,1,False,0.0001
+177,Red-flag-like presentations,I am experiencing sudden weakness on one side of my body.,rule_based_only,weakness,fatigue,0,1,1,False,0.0001
+178,Red-flag-like presentations,I am experiencing chest tightness with sweating and dizziness.,rule_based_only,chest pain; sweating; dizziness,none,0,0,3,False,0.0001
+179,Red-flag-like presentations,I am experiencing a very high fever and confusion.,rule_based_only,fever; confusion,fever,1,0,1,False,0.0001
+180,Red-flag-like presentations,I am experiencing severe abdominal pain with vomiting.,rule_based_only,abdominal pain; vomiting,abdominal pain; nausea,1,1,1,False,0.0001
+181,Negative or irrelevant inputs,I want to know about healthy food.,rule_based_only,none,none,0,0,0,True,0.0
+182,Negative or irrelevant inputs,Can you explain what vitamin C does?,rule_based_only,none,none,0,0,0,True,0.0
+183,Negative or irrelevant inputs,I need general fitness advice.,rule_based_only,none,none,0,0,0,True,0.0
+184,Negative or irrelevant inputs,What is a balanced diet?,rule_based_only,none,none,0,0,0,True,0.0
+185,Negative or irrelevant inputs,Tell me about medical insurance.,rule_based_only,none,none,0,0,0,True,0.0
+186,Negative or irrelevant inputs,How can I sleep better in general?,rule_based_only,insomnia,none,0,0,1,False,0.0
+187,Negative or irrelevant inputs,I want information about exercise plans.,rule_based_only,none,none,0,0,0,True,0.0
+188,Negative or irrelevant inputs,Can you summarize a health article?,rule_based_only,none,none,0,0,0,True,0.0
+189,Negative or irrelevant inputs,What is PubMed?,rule_based_only,none,none,0,0,0,True,0.0
+190,Negative or irrelevant inputs,I am researching clinical trials.,rule_based_only,none,none,0,0,0,True,0.0001
+191,Negative or irrelevant inputs,"Since yesterday, i want to know about healthy food.",rule_based_only,none,none,0,0,0,True,0.0001
+192,Negative or irrelevant inputs,"Since yesterday, can you explain what vitamin C does?",rule_based_only,none,none,0,0,0,True,0.0001
+193,Negative or irrelevant inputs,"Since yesterday, i need general fitness advice.",rule_based_only,none,none,0,0,0,True,0.0001
+194,Negative or irrelevant inputs,"Since yesterday, what is a balanced diet?",rule_based_only,none,none,0,0,0,True,0.0001
+195,Negative or irrelevant inputs,"Since yesterday, tell me about medical insurance.",rule_based_only,none,none,0,0,0,True,0.0001
+196,Negative or irrelevant inputs,"Since yesterday, how can I sleep better in general?",rule_based_only,insomnia,none,0,0,1,False,0.0001
+197,Negative or irrelevant inputs,"Since yesterday, i want information about exercise plans.",rule_based_only,none,none,0,0,0,True,0.0001
+198,Negative or irrelevant inputs,"Since yesterday, can you summarize a health article?",rule_based_only,none,none,0,0,0,True,0.0001
+199,Negative or irrelevant inputs,"Since yesterday, what is PubMed?",rule_based_only,none,none,0,0,0,True,0.0
+200,Negative or irrelevant inputs,"Since yesterday, i am researching clinical trials.",rule_based_only,none,none,0,0,0,True,0.0001
+001,Common acute symptoms,I have had a fever and headache since last night.,llm_only,fever; headache,fever; headache,2,0,0,True,4.8127
+002,Common acute symptoms,My throat hurts and I have a fever.,llm_only,sore throat; fever,throat hurts; fever,1,1,1,False,1.1245
+003,Common acute symptoms,I feel nauseous and I have been vomiting today.,llm_only,nausea; vomiting,nauseous; vomiting,1,1,1,False,1.1645
+004,Common acute symptoms,I have stomach pain with nausea.,llm_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,1.7273
+005,Common acute symptoms,I woke up with headache and body pain.,llm_only,headache; joint pain,headache; joint pain,2,0,0,True,0.8268
+006,Common acute symptoms,"I have a runny nose, cough, and mild fever.",llm_only,runny nose; cough; fever,runny nose; cough; mild fever,2,1,1,False,1.0121
+007,Common acute symptoms,My eyes are watery and I keep sneezing.,llm_only,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,1.0064
+008,Common acute symptoms,I have chills and a high temperature.,llm_only,chills; fever,chills; high temperature,1,1,1,False,1.0885
+009,Common acute symptoms,I feel dizzy when I stand up.,llm_only,dizziness,dizzy,0,1,1,False,0.8022
+010,Common acute symptoms,I have pain in my lower back after lifting a box.,llm_only,lower back pain,pain,0,1,1,False,1.6915
+011,Common acute symptoms,"Since yesterday, i have had a fever and headache since last night.",llm_only,fever; headache,fever; headache,2,0,0,True,0.8527
+012,Common acute symptoms,"Since yesterday, my throat hurts and I have a fever.",llm_only,sore throat; fever,throat hurts; fever,1,1,1,False,1.0958
+013,Common acute symptoms,"Since yesterday, i feel nauseous and I have been vomiting today.",llm_only,nausea; vomiting,nauseous; vomiting,1,1,1,False,1.0192
+014,Common acute symptoms,"Since yesterday, i have stomach pain with nausea.",llm_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,1.1427
+015,Common acute symptoms,"Since yesterday, i woke up with headache and body pain.",llm_only,headache; joint pain,headache; joint pain,2,0,0,True,1.0412
+016,Common acute symptoms,"Since yesterday, i have a runny nose, cough, and mild fever.",llm_only,runny nose; cough; fever,runny nose; cough; mild fever,2,1,1,False,2.6585
+017,Common acute symptoms,"Since yesterday, my eyes are watery and I keep sneezing.",llm_only,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,1.1496
+018,Common acute symptoms,"Since yesterday, i have chills and a high temperature.",llm_only,chills; fever,chills; high temperature,1,1,1,False,0.9358
+019,Common acute symptoms,"Since yesterday, i feel dizzy when I stand up.",llm_only,dizziness,dizzy,0,1,1,False,0.8018
+020,Common acute symptoms,"Since yesterday, i have pain in my lower back after lifting a box.",llm_only,lower back pain,pain in lower back,0,1,1,False,0.9768
+021,Common acute symptoms,I am experiencing had a fever and headache since last night.,llm_only,fever; headache,fever; headache,2,0,0,True,0.8837
+022,Common acute symptoms,My throat hurts and I am experiencing a fever.,llm_only,sore throat; fever,throat hurts; fever,1,1,1,False,0.9729
+023,Common acute symptoms,I feel nauseous and I am experiencing been vomiting today.,llm_only,nausea; vomiting,nauseous; vomiting,1,1,1,False,0.899
+024,Common acute symptoms,I am experiencing stomach pain with nausea.,llm_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,1.3636
+025,Common acute symptoms,I woke up with headache and body pain.,llm_only,headache; joint pain,headache; joint pain,2,0,0,True,1.0704
+026,Common acute symptoms,"I am experiencing a runny nose, cough, and mild fever.",llm_only,runny nose; cough; fever,runny nose; cough; mild fever,2,1,1,False,0.8991
+027,Common acute symptoms,My eyes are watery and I keep sneezing.,llm_only,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,0.9047
+028,Common acute symptoms,I am experiencing chills and a high temperature.,llm_only,chills; fever,chills; high temperature,1,1,1,False,0.9278
+029,Common acute symptoms,I feel dizzy when I stand up.,llm_only,dizziness,dizzy,0,1,1,False,0.8815
+030,Common acute symptoms,I am experiencing pain in my lower back after lifting a box.,llm_only,lower back pain,pain,0,1,1,False,0.8084
+031,Common acute symptoms,I have had a fever and headache since last night.,llm_only,fever; headache,fever; headache,2,0,0,True,0.9612
+032,Common acute symptoms,My throat hurts and I have a fever.,llm_only,sore throat; fever,throat hurts; fever,1,1,1,False,0.911
+033,Common acute symptoms,Recently I feel nauseous and I have been vomiting today.,llm_only,nausea; vomiting,nauseous; vomiting,1,1,1,False,0.8823
+034,Common acute symptoms,I have stomach pain with nausea.,llm_only,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,1.2239
+035,Common acute symptoms,I woke up with headache and body pain.,llm_only,headache; joint pain,headache; joint pain,2,0,0,True,0.857
+036,Common acute symptoms,"I have a runny nose, cough, and mild fever.",llm_only,runny nose; cough; fever,runny nose; cough; mild fever,2,1,1,False,0.8727
+037,Common acute symptoms,My eyes are watery and I keep sneezing.,llm_only,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,1.0214
+038,Common acute symptoms,I have chills and a high temperature.,llm_only,chills; fever,chills; high temperature,1,1,1,False,0.8581
+039,Common acute symptoms,Recently I feel dizzy when I stand up.,llm_only,dizziness,dizzy,0,1,1,False,0.8293
+040,Common acute symptoms,I have pain in my lower back after lifting a box.,llm_only,lower back pain,pain in lower back,0,1,1,False,0.858
+041,Chronic-disease-related symptoms,My legs are swollen and I feel tired all the time.,llm_only,edema; fatigue,edema; fatigue,2,0,0,True,0.8929
+042,Chronic-disease-related symptoms,I feel thirsty often and I urinate frequently.,llm_only,excessive thirst; frequent urination,thirsty; frequent urination,1,1,1,False,0.9717
+043,Chronic-disease-related symptoms,I have been very tired and weak for several weeks.,llm_only,fatigue; weakness,fatigue; weak,1,1,1,False,0.914
+044,Chronic-disease-related symptoms,My joints hurt every morning.,llm_only,joint pain,joints hurt,0,1,1,False,0.958
+045,Chronic-disease-related symptoms,I have trouble sleeping almost every night.,llm_only,insomnia,trouble sleeping,0,1,1,False,8.3739
+046,Chronic-disease-related symptoms,I feel low mood and have poor sleep.,llm_only,depression; insomnia,low mood; poor sleep,0,2,2,False,0.9865
+047,Chronic-disease-related symptoms,I have ongoing lower back pain.,llm_only,lower back pain,lower back pain,1,0,0,True,1.0922
+048,Chronic-disease-related symptoms,My feet are swollen and I feel short of breath while walking.,llm_only,edema; dyspnea,edema; short of breath,1,1,1,False,0.8895
+049,Chronic-disease-related symptoms,I get frequent headaches during work.,llm_only,headache,frequent headaches,0,1,1,False,1.2243
+050,Chronic-disease-related symptoms,I have abdominal pain after meals for many weeks.,llm_only,abdominal pain,abdominal pain,1,0,0,True,1.0035
+051,Chronic-disease-related symptoms,"Since yesterday, my legs are swollen and I feel tired all the time.",llm_only,edema; fatigue,edema; fatigue,2,0,0,True,1.0639
+052,Chronic-disease-related symptoms,"Since yesterday, i feel thirsty often and I urinate frequently.",llm_only,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,0.9068
+053,Chronic-disease-related symptoms,"Since yesterday, i have been very tired and weak for several weeks.",llm_only,fatigue; weakness,fatigue; weak,1,1,1,False,1.0454
+054,Chronic-disease-related symptoms,"Since yesterday, my joints hurt every morning.",llm_only,joint pain,joints hurt,0,1,1,False,1.1127
+055,Chronic-disease-related symptoms,"Since yesterday, i have trouble sleeping almost every night.",llm_only,insomnia,trouble sleeping,0,1,1,False,0.8608
+056,Chronic-disease-related symptoms,"Since yesterday, i feel low mood and have poor sleep.",llm_only,depression; insomnia,low mood; poor sleep,0,2,2,False,1.0728
+057,Chronic-disease-related symptoms,"Since yesterday, i have ongoing lower back pain.",llm_only,lower back pain,lower back pain,1,0,0,True,0.8968
+058,Chronic-disease-related symptoms,"Since yesterday, my feet are swollen and I feel short of breath while walking.",llm_only,edema; dyspnea,edema; short of breath,1,1,1,False,0.9202
+059,Chronic-disease-related symptoms,"Since yesterday, i get frequent headaches during work.",llm_only,headache,frequent headaches,0,1,1,False,0.9533
+060,Chronic-disease-related symptoms,"Since yesterday, i have abdominal pain after meals for many weeks.",llm_only,abdominal pain,abdominal pain,1,0,0,True,0.8902
+061,Chronic-disease-related symptoms,My legs are swollen and I feel tired all the time.,llm_only,edema; fatigue,edema; fatigue,2,0,0,True,0.9367
+062,Chronic-disease-related symptoms,I feel thirsty often and I urinate frequently.,llm_only,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,0.9981
+063,Chronic-disease-related symptoms,I am experiencing been very tired and weak for several weeks.,llm_only,fatigue; weakness,fatigue; weak,1,1,1,False,0.8838
+064,Chronic-disease-related symptoms,My joints hurt every morning.,llm_only,joint pain,joints hurt,0,1,1,False,0.8108
+065,Chronic-disease-related symptoms,I am experiencing trouble sleeping almost every night.,llm_only,insomnia,trouble sleeping,0,1,1,False,0.8165
+066,Chronic-disease-related symptoms,I feel low mood and have poor sleep.,llm_only,depression; insomnia,low mood; poor sleep,0,2,2,False,0.9205
+067,Chronic-disease-related symptoms,I am experiencing ongoing lower back pain.,llm_only,lower back pain,lower back pain,1,0,0,True,1.1503
+068,Chronic-disease-related symptoms,My feet are swollen and I feel short of breath while walking.,llm_only,edema; dyspnea,edema; short of breath,1,1,1,False,0.9461
+069,Chronic-disease-related symptoms,I get frequent headaches during work.,llm_only,headache,frequent headaches,0,1,1,False,1.4195
+070,Chronic-disease-related symptoms,I am experiencing abdominal pain after meals for many weeks.,llm_only,abdominal pain,abdominal pain,1,0,0,True,1.1839
+071,Chronic-disease-related symptoms,My legs are swollen and Recently I feel tired all the time.,llm_only,edema; fatigue,edema; fatigue,2,0,0,True,0.9161
+072,Chronic-disease-related symptoms,Recently I feel thirsty often and I urinate frequently.,llm_only,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,0.8849
+073,Chronic-disease-related symptoms,I have been very tired and weak for several weeks.,llm_only,fatigue; weakness,fatigue; weak,1,1,1,False,0.8955
+074,Chronic-disease-related symptoms,My joints hurt every morning.,llm_only,joint pain,joints hurt,0,1,1,False,0.9986
+075,Chronic-disease-related symptoms,I have trouble sleeping almost every night.,llm_only,insomnia,trouble sleeping,0,1,1,False,0.7801
+076,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",llm_only,dizziness; weakness,dizzy; weak,0,2,2,False,0.8639
+077,Colloquial symptom descriptions,My head is pounding and I feel hot.,llm_only,headache; fever,pounding head; feeling hot,0,2,2,False,1.027
+078,Colloquial symptom descriptions,I feel like throwing up.,llm_only,vomiting,nausea,0,1,1,False,1.5326
+079,Colloquial symptom descriptions,I cannot catch my breath.,llm_only,dyspnea,dyspnea,1,0,0,True,0.8063
+080,Colloquial symptom descriptions,My chest feels tight.,llm_only,chest pain,tightness in chest,0,1,1,False,0.789
+081,Colloquial symptom descriptions,I have no energy and feel drained.,llm_only,fatigue,no energy; drained,0,2,1,False,0.9452
+082,Colloquial symptom descriptions,My belly is hurting badly.,llm_only,abdominal pain,belly hurting,0,1,1,False,0.9151
+083,Colloquial symptom descriptions,I feel down and cannot sleep well.,llm_only,depression; insomnia,feeling down; cannot sleep well,0,2,2,False,0.956
+084,Colloquial symptom descriptions,My body aches all over.,llm_only,joint pain,body aches,0,1,1,False,0.8932
+085,Colloquial symptom descriptions,I feel shaky and lightheaded.,llm_only,dizziness; weakness,shaky; lightheaded,0,2,2,False,1.0421
+086,Colloquial symptom descriptions,"Since yesterday, i just feel off, dizzy, and weak.",llm_only,dizziness; weakness,dizzy; weak,0,2,2,False,0.9274
+087,Colloquial symptom descriptions,"Since yesterday, my head is pounding and I feel hot.",llm_only,headache; fever,pounding head; feeling hot,0,2,2,False,1.0107
+088,Colloquial symptom descriptions,"Since yesterday, i feel like throwing up.",llm_only,vomiting,vomiting,1,0,0,True,0.9427
+089,Colloquial symptom descriptions,"Since yesterday, i cannot catch my breath.",llm_only,dyspnea,cannot catch my breath,0,1,1,False,0.8442
+090,Colloquial symptom descriptions,"Since yesterday, my chest feels tight.",llm_only,chest pain,tight chest,0,1,1,False,0.8878
+091,Colloquial symptom descriptions,"Since yesterday, i have no energy and feel drained.",llm_only,fatigue,no energy; feel drained,0,2,1,False,0.9556
+092,Colloquial symptom descriptions,"Since yesterday, my belly is hurting badly.",llm_only,abdominal pain,belly hurting,0,1,1,False,0.9436
+093,Colloquial symptom descriptions,"Since yesterday, i feel down and cannot sleep well.",llm_only,depression; insomnia,feeling down; cannot sleep well,0,2,2,False,1.068
+094,Colloquial symptom descriptions,"Since yesterday, my body aches all over.",llm_only,joint pain,body aches,0,1,1,False,0.9669
+095,Colloquial symptom descriptions,"Since yesterday, i feel shaky and lightheaded.",llm_only,dizziness; weakness,shaky; lightheaded,0,2,2,False,1.1731
+096,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",llm_only,dizziness; weakness,dizzy; weak,0,2,2,False,0.8548
+097,Colloquial symptom descriptions,My head is pounding and I feel hot.,llm_only,headache; fever,pounding head; feeling hot,0,2,2,False,0.9624
+098,Colloquial symptom descriptions,I feel like throwing up.,llm_only,vomiting,nausea,0,1,1,False,0.8262
+099,Colloquial symptom descriptions,I cannot catch my breath.,llm_only,dyspnea,dyspnea,1,0,0,True,0.8002
+100,Colloquial symptom descriptions,My chest feels tight.,llm_only,chest pain,tightness in chest,0,1,1,False,0.9165
+101,Colloquial symptom descriptions,I am experiencing no energy and feel drained.,llm_only,fatigue,no energy; drained,0,2,1,False,0.9789
+102,Colloquial symptom descriptions,My belly is hurting badly.,llm_only,abdominal pain,belly hurting,0,1,1,False,1.1226
+103,Colloquial symptom descriptions,I feel down and cannot sleep well.,llm_only,depression; insomnia,feeling down; cannot sleep well,0,2,2,False,1.0794
+104,Colloquial symptom descriptions,My body aches all over.,llm_only,joint pain,body aches,0,1,1,False,1.1733
+105,Colloquial symptom descriptions,I feel shaky and lightheaded.,llm_only,dizziness; weakness,shaky; lightheaded,0,2,2,False,1.3188
+106,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",llm_only,dizziness; weakness,dizzy; weak,0,2,2,False,1.341
+107,Colloquial symptom descriptions,My head is pounding and Recently I feel hot.,llm_only,headache; fever,pounding head; feeling hot,0,2,2,False,1.4318
+108,Colloquial symptom descriptions,Recently I feel like throwing up.,llm_only,vomiting,vomiting,1,0,0,True,1.2279
+109,Colloquial symptom descriptions,I cannot catch my breath.,llm_only,dyspnea,cannot catch breath,0,1,1,False,1.1232
+110,Colloquial symptom descriptions,My chest feels tight.,llm_only,chest pain,tightness in chest,0,1,1,False,1.1248
+111,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness.",llm_only,chest pain; dyspnea; dizziness,chest pain; dyspnea; dizziness,3,0,0,True,1.4061
+112,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue.",llm_only,fever; cough; headache; fatigue,fever; cough; headache; fatigue,4,0,0,True,1.6335
+113,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness.",llm_only,nausea; abdominal pain; weakness,nausea; abdominal pain; weakness,3,0,0,True,1.4129
+114,Multi-symptom descriptions,I have lower back pain and pain in my joints.,llm_only,lower back pain; joint pain,lower back pain; pain in my joints,1,1,1,False,1.1849
+115,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue.",llm_only,insomnia; depression; fatigue,trouble sleeping; low mood; fatigue,1,2,2,False,1.1936
+116,Multi-symptom descriptions,"I have fever, chills, and vomiting.",llm_only,fever; chills; vomiting,fever; chills; vomiting,3,0,0,True,1.6991
+117,Multi-symptom descriptions,"My legs are swollen, and I feel chest tightness.",llm_only,edema; chest pain,edema; chest pain,2,0,0,True,1.2954
+118,Multi-symptom descriptions,"I have headache, dizziness, and nausea.",llm_only,headache; dizziness; nausea,headache; dizziness; nausea,3,0,0,True,1.1782
+119,Multi-symptom descriptions,"I feel tired, weak, and short of breath.",llm_only,fatigue; weakness; dyspnea,fatigue; weak; short of breath,1,2,2,False,1.2355
+120,Multi-symptom descriptions,"I have abdominal pain, nausea, and poor sleep.",llm_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; poor sleep,2,1,1,False,1.2882
+121,Multi-symptom descriptions,"Since yesterday, i have chest pain, shortness of breath, and dizziness.",llm_only,chest pain; dyspnea; dizziness,chest pain; dyspnea; dizziness,3,0,0,True,1.095
+122,Multi-symptom descriptions,"Since yesterday, i have fever, cough, headache, and fatigue.",llm_only,fever; cough; headache; fatigue,fever; cough; headache; fatigue,4,0,0,True,1.1431
+123,Multi-symptom descriptions,"Since yesterday, i feel nausea, stomach pain, and weakness.",llm_only,nausea; abdominal pain; weakness,nausea; abdominal pain; weakness,3,0,0,True,1.3357
+124,Multi-symptom descriptions,"Since yesterday, i have lower back pain and pain in my joints.",llm_only,lower back pain; joint pain,lower back pain; pain in my joints,1,1,1,False,1.3861
+125,Multi-symptom descriptions,"Since yesterday, i have trouble sleeping, low mood, and fatigue.",llm_only,insomnia; depression; fatigue,trouble sleeping; low mood; fatigue,1,2,2,False,1.1502
+126,Multi-symptom descriptions,"Since yesterday, i have fever, chills, and vomiting.",llm_only,fever; chills; vomiting,fever; chills; vomiting,3,0,0,True,1.2102
+127,Multi-symptom descriptions,"Since yesterday, my legs are swollen, and I feel chest tightness.",llm_only,edema; chest pain,edema; chest pain,2,0,0,True,1.1222
+128,Multi-symptom descriptions,"Since yesterday, i have headache, dizziness, and nausea.",llm_only,headache; dizziness; nausea,headache; dizziness; nausea,3,0,0,True,1.1763
+129,Multi-symptom descriptions,"Since yesterday, i feel tired, weak, and short of breath.",llm_only,fatigue; weakness; dyspnea,fatigue; weak; short of breath,1,2,2,False,1.1172
+130,Multi-symptom descriptions,"Since yesterday, i have abdominal pain, nausea, and poor sleep.",llm_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; poor sleep,2,1,1,False,1.2112
+131,Multi-symptom descriptions,"I am experiencing chest pain, shortness of breath, and dizziness.",llm_only,chest pain; dyspnea; dizziness,chest pain; dyspnea; dizziness,3,0,0,True,1.1557
+132,Multi-symptom descriptions,"I am experiencing fever, cough, headache, and fatigue.",llm_only,fever; cough; headache; fatigue,fever; cough; headache; fatigue,4,0,0,True,1.0861
+133,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness.",llm_only,nausea; abdominal pain; weakness,nausea; abdominal pain; weakness,3,0,0,True,1.3207
+134,Multi-symptom descriptions,I am experiencing lower back pain and pain in my joints.,llm_only,lower back pain; joint pain,lower back pain; pain in my joints,1,1,1,False,1.0107
+135,Multi-symptom descriptions,"I am experiencing trouble sleeping, low mood, and fatigue.",llm_only,insomnia; depression; fatigue,trouble sleeping; low mood; fatigue,1,2,2,False,1.4151
+136,Multi-symptom descriptions,"I am experiencing fever, chills, and vomiting.",llm_only,fever; chills; vomiting,fever; chills; vomiting,3,0,0,True,1.0793
+137,Multi-symptom descriptions,"My legs are swollen, and I feel chest tightness.",llm_only,edema; chest pain,edema; chest pain,2,0,0,True,1.3424
+138,Multi-symptom descriptions,"I am experiencing headache, dizziness, and nausea.",llm_only,headache; dizziness; nausea,headache; dizziness; nausea,3,0,0,True,1.1546
+139,Multi-symptom descriptions,"I feel tired, weak, and short of breath.",llm_only,fatigue; weakness; dyspnea,fatigue; weak; short of breath,1,2,2,False,1.3182
+140,Multi-symptom descriptions,"I am experiencing abdominal pain, nausea, and poor sleep.",llm_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; poor sleep,2,1,1,False,1.2484
+141,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness.",llm_only,chest pain; dyspnea; dizziness,chest pain; dyspnea; dizziness,3,0,0,True,1.309
+142,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue.",llm_only,fever; cough; headache; fatigue,fever; cough; headache; fatigue,4,0,0,True,1.2728
+143,Multi-symptom descriptions,"Recently I feel nausea, stomach pain, and weakness.",llm_only,nausea; abdominal pain; weakness,nausea; abdominal pain; weakness,3,0,0,True,1.1
+144,Multi-symptom descriptions,I have lower back pain and pain in my joints.,llm_only,lower back pain; joint pain,lower back pain; pain in my joints,1,1,1,False,0.9982
+145,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue.",llm_only,insomnia; depression; fatigue,trouble sleeping; low mood; fatigue,1,2,2,False,1.1721
+146,Multi-symptom descriptions,"I have fever, chills, and vomiting.",llm_only,fever; chills; vomiting,fever; chills; vomiting,3,0,0,True,1.19
+147,Multi-symptom descriptions,"My legs are swollen, and Recently I feel chest tightness.",llm_only,edema; chest pain,edema; chest pain,2,0,0,True,1.0216
+148,Multi-symptom descriptions,"I have headache, dizziness, and nausea.",llm_only,headache; dizziness; nausea,headache; dizziness; nausea,3,0,0,True,1.1327
+149,Multi-symptom descriptions,"Recently I feel tired, weak, and short of breath.",llm_only,fatigue; weakness; dyspnea,fatigue; weak; short of breath,1,2,2,False,1.1854
+150,Multi-symptom descriptions,"I have abdominal pain, nausea, and poor sleep.",llm_only,abdominal pain; nausea; insomnia,abdominal pain; nausea; poor sleep,2,1,1,False,1.0073
+151,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness. It has been bothering me.",llm_only,chest pain; dyspnea; dizziness,chest pain; dyspnea; dizziness,3,0,0,True,1.2584
+152,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue. It has been bothering me.",llm_only,fever; cough; headache; fatigue,fever; cough; headache; fatigue,4,0,0,True,1.4756
+153,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness. It has been bothering me.",llm_only,nausea; abdominal pain; weakness,nausea; abdominal pain; weakness,3,0,0,True,1.0972
+154,Multi-symptom descriptions,I have lower back pain and pain in my joints. It has been bothering me.,llm_only,lower back pain; joint pain,lower back pain; pain in my joints,1,1,1,False,1.314
+155,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue. It has been bothering me.",llm_only,insomnia; depression; fatigue,trouble sleeping; low mood; fatigue,1,2,2,False,1.8425
+156,Red-flag-like presentations,I have severe chest pain and shortness of breath.,llm_only,chest pain; dyspnea,severe chest pain; dyspnea,1,1,1,False,1.3581
+157,Red-flag-like presentations,I have sudden weakness on one side of my body.,llm_only,weakness,sudden weakness,0,1,1,False,1.0414
+158,Red-flag-like presentations,I have chest tightness with sweating and dizziness.,llm_only,chest pain; sweating; dizziness,chest pain; sweating; dizziness,3,0,0,True,1.1551
+159,Red-flag-like presentations,I have a very high fever and confusion.,llm_only,fever; confusion,high fever; confusion,1,1,1,False,1.0662
+160,Red-flag-like presentations,I have severe abdominal pain with vomiting.,llm_only,abdominal pain; vomiting,severe abdominal pain; vomiting,1,1,1,False,1.1117
+161,Red-flag-like presentations,I cannot breathe properly and my chest hurts.,llm_only,dyspnea; chest pain,cannot breathe properly; chest hurts,0,2,2,False,1.1075
+162,Red-flag-like presentations,I have a terrible headache and blurry vision.,llm_only,headache; blurred vision,headache; blurry vision,1,1,1,False,1.1555
+163,Red-flag-like presentations,I have fainting and chest pain.,llm_only,fainting; chest pain,fainting; chest pain,2,0,0,True,0.9717
+164,Red-flag-like presentations,I have severe pelvic pain and dizziness.,llm_only,pelvic pain; dizziness,severe pelvic pain; dizziness,1,1,1,False,1.0973
+165,Red-flag-like presentations,I feel extreme weakness and cannot stand.,llm_only,weakness,extreme weakness,0,1,1,False,1.1
+166,Red-flag-like presentations,"Since yesterday, i have severe chest pain and shortness of breath.",llm_only,chest pain; dyspnea,chest pain; dyspnea,2,0,0,True,1.0656
+167,Red-flag-like presentations,"Since yesterday, i have sudden weakness on one side of my body.",llm_only,weakness,sudden weakness,0,1,1,False,1.183
+168,Red-flag-like presentations,"Since yesterday, i have chest tightness with sweating and dizziness.",llm_only,chest pain; sweating; dizziness,chest pain; sweating; dizziness,3,0,0,True,1.1806
+169,Red-flag-like presentations,"Since yesterday, i have a very high fever and confusion.",llm_only,fever; confusion,high fever; confusion,1,1,1,False,1.0162
+170,Red-flag-like presentations,"Since yesterday, i have severe abdominal pain with vomiting.",llm_only,abdominal pain; vomiting,abdominal pain; vomiting,2,0,0,True,1.0399
+171,Red-flag-like presentations,"Since yesterday, i cannot breathe properly and my chest hurts.",llm_only,dyspnea; chest pain,cannot breathe properly; chest hurts,0,2,2,False,1.1705
+172,Red-flag-like presentations,"Since yesterday, i have a terrible headache and blurry vision.",llm_only,headache; blurred vision,headache; blurry vision,1,1,1,False,1.0118
+173,Red-flag-like presentations,"Since yesterday, i have fainting and chest pain.",llm_only,fainting; chest pain,fainting; chest pain,2,0,0,True,1.3397
+174,Red-flag-like presentations,"Since yesterday, i have severe pelvic pain and dizziness.",llm_only,pelvic pain; dizziness,severe pelvic pain; dizziness,1,1,1,False,1.222
+175,Red-flag-like presentations,"Since yesterday, i feel extreme weakness and cannot stand.",llm_only,weakness,extreme weakness,0,1,1,False,14.3642
+176,Red-flag-like presentations,I am experiencing severe chest pain and shortness of breath.,llm_only,chest pain; dyspnea,chest pain; dyspnea,2,0,0,True,1.2487
+177,Red-flag-like presentations,I am experiencing sudden weakness on one side of my body.,llm_only,weakness,sudden weakness,0,1,1,False,2.6532
+178,Red-flag-like presentations,I am experiencing chest tightness with sweating and dizziness.,llm_only,chest pain; sweating; dizziness,chest pain; sweating; dizziness,3,0,0,True,1.2844
+179,Red-flag-like presentations,I am experiencing a very high fever and confusion.,llm_only,fever; confusion,high fever; confusion,1,1,1,False,1.1029
+180,Red-flag-like presentations,I am experiencing severe abdominal pain with vomiting.,llm_only,abdominal pain; vomiting,abdominal pain; vomiting,2,0,0,True,0.9706
+181,Negative or irrelevant inputs,I want to know about healthy food.,llm_only,none,none,0,0,0,True,1.0818
+182,Negative or irrelevant inputs,Can you explain what vitamin C does?,llm_only,none,none,0,0,0,True,1.2044
+183,Negative or irrelevant inputs,I need general fitness advice.,llm_only,none,none,0,0,0,True,1.1334
+184,Negative or irrelevant inputs,What is a balanced diet?,llm_only,none,none,0,0,0,True,1.1062
+185,Negative or irrelevant inputs,Tell me about medical insurance.,llm_only,none,none,0,0,0,True,1.3034
+186,Negative or irrelevant inputs,How can I sleep better in general?,llm_only,insomnia,none,0,0,1,False,1.0777
+187,Negative or irrelevant inputs,I want information about exercise plans.,llm_only,none,none,0,0,0,True,1.1134
+188,Negative or irrelevant inputs,Can you summarize a health article?,llm_only,none,none,0,0,0,True,1.1362
+189,Negative or irrelevant inputs,What is PubMed?,llm_only,none,none,0,0,0,True,0.9153
+190,Negative or irrelevant inputs,I am researching clinical trials.,llm_only,none,none,0,0,0,True,1.1769
+191,Negative or irrelevant inputs,"Since yesterday, i want to know about healthy food.",llm_only,none,none,0,0,0,True,1.6912
+192,Negative or irrelevant inputs,"Since yesterday, can you explain what vitamin C does?",llm_only,none,none,0,0,0,True,1.2871
+193,Negative or irrelevant inputs,"Since yesterday, i need general fitness advice.",llm_only,none,none,0,0,0,True,1.1772
+194,Negative or irrelevant inputs,"Since yesterday, what is a balanced diet?",llm_only,none,none,0,0,0,True,1.1552
+195,Negative or irrelevant inputs,"Since yesterday, tell me about medical insurance.",llm_only,none,none,0,0,0,True,1.0734
+196,Negative or irrelevant inputs,"Since yesterday, how can I sleep better in general?",llm_only,insomnia,none,0,0,1,False,1.0964
+197,Negative or irrelevant inputs,"Since yesterday, i want information about exercise plans.",llm_only,none,none,0,0,0,True,0.9874
+198,Negative or irrelevant inputs,"Since yesterday, can you summarize a health article?",llm_only,none,none,0,0,0,True,1.0504
+199,Negative or irrelevant inputs,"Since yesterday, what is PubMed?",llm_only,none,none,0,0,0,True,1.1972
+200,Negative or irrelevant inputs,"Since yesterday, i am researching clinical trials.",llm_only,none,none,0,0,0,True,0.9583
+001,Common acute symptoms,I have had a fever and headache since last night.,hybrid_rule_plus_llm,fever; headache,headache; fever,2,0,0,True,0.0001
+002,Common acute symptoms,My throat hurts and I have a fever.,hybrid_rule_plus_llm,sore throat; fever,fever,1,0,1,False,0.0001
+003,Common acute symptoms,I feel nauseous and I have been vomiting today.,hybrid_rule_plus_llm,nausea; vomiting,nausea,1,0,1,False,0.0001
+004,Common acute symptoms,I have stomach pain with nausea.,hybrid_rule_plus_llm,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0
+005,Common acute symptoms,I woke up with headache and body pain.,hybrid_rule_plus_llm,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+006,Common acute symptoms,"I have a runny nose, cough, and mild fever.",hybrid_rule_plus_llm,runny nose; cough; fever,fever,1,0,2,False,0.0001
+007,Common acute symptoms,My eyes are watery and I keep sneezing.,hybrid_rule_plus_llm,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,1.1926
+008,Common acute symptoms,I have chills and a high temperature.,hybrid_rule_plus_llm,chills; fever,fever,1,0,1,False,0.0001
+009,Common acute symptoms,I feel dizzy when I stand up.,hybrid_rule_plus_llm,dizziness,dizzy,0,1,1,False,1.1732
+010,Common acute symptoms,I have pain in my lower back after lifting a box.,hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0001
+011,Common acute symptoms,"Since yesterday, i have had a fever and headache since last night.",hybrid_rule_plus_llm,fever; headache,headache; fever,2,0,0,True,0.0001
+012,Common acute symptoms,"Since yesterday, my throat hurts and I have a fever.",hybrid_rule_plus_llm,sore throat; fever,fever,1,0,1,False,0.0001
+013,Common acute symptoms,"Since yesterday, i feel nauseous and I have been vomiting today.",hybrid_rule_plus_llm,nausea; vomiting,nausea,1,0,1,False,0.0001
+014,Common acute symptoms,"Since yesterday, i have stomach pain with nausea.",hybrid_rule_plus_llm,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0001
+015,Common acute symptoms,"Since yesterday, i woke up with headache and body pain.",hybrid_rule_plus_llm,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+016,Common acute symptoms,"Since yesterday, i have a runny nose, cough, and mild fever.",hybrid_rule_plus_llm,runny nose; cough; fever,fever,1,0,2,False,0.0001
+017,Common acute symptoms,"Since yesterday, my eyes are watery and I keep sneezing.",hybrid_rule_plus_llm,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,1.0886
+018,Common acute symptoms,"Since yesterday, i have chills and a high temperature.",hybrid_rule_plus_llm,chills; fever,fever,1,0,1,False,0.0002
+019,Common acute symptoms,"Since yesterday, i feel dizzy when I stand up.",hybrid_rule_plus_llm,dizziness,dizzy,0,1,1,False,1.2547
+020,Common acute symptoms,"Since yesterday, i have pain in my lower back after lifting a box.",hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0002
+021,Common acute symptoms,I am experiencing had a fever and headache since last night.,hybrid_rule_plus_llm,fever; headache,headache; fever,2,0,0,True,0.0002
+022,Common acute symptoms,My throat hurts and I am experiencing a fever.,hybrid_rule_plus_llm,sore throat; fever,fever,1,0,1,False,0.0002
+023,Common acute symptoms,I feel nauseous and I am experiencing been vomiting today.,hybrid_rule_plus_llm,nausea; vomiting,nausea,1,0,1,False,0.0001
+024,Common acute symptoms,I am experiencing stomach pain with nausea.,hybrid_rule_plus_llm,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0001
+025,Common acute symptoms,I woke up with headache and body pain.,hybrid_rule_plus_llm,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+026,Common acute symptoms,"I am experiencing a runny nose, cough, and mild fever.",hybrid_rule_plus_llm,runny nose; cough; fever,fever,1,0,2,False,0.0001
+027,Common acute symptoms,My eyes are watery and I keep sneezing.,hybrid_rule_plus_llm,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,0.9734
+028,Common acute symptoms,I am experiencing chills and a high temperature.,hybrid_rule_plus_llm,chills; fever,fever,1,0,1,False,0.0001
+029,Common acute symptoms,I feel dizzy when I stand up.,hybrid_rule_plus_llm,dizziness,dizzy,0,1,1,False,1.1206
+030,Common acute symptoms,I am experiencing pain in my lower back after lifting a box.,hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0001
+031,Common acute symptoms,I have had a fever and headache since last night.,hybrid_rule_plus_llm,fever; headache,headache; fever,2,0,0,True,0.0001
+032,Common acute symptoms,My throat hurts and I have a fever.,hybrid_rule_plus_llm,sore throat; fever,fever,1,0,1,False,0.0001
+033,Common acute symptoms,Recently I feel nauseous and I have been vomiting today.,hybrid_rule_plus_llm,nausea; vomiting,nausea,1,0,1,False,0.0001
+034,Common acute symptoms,I have stomach pain with nausea.,hybrid_rule_plus_llm,abdominal pain; nausea,abdominal pain; nausea,2,0,0,True,0.0
+035,Common acute symptoms,I woke up with headache and body pain.,hybrid_rule_plus_llm,headache; joint pain,joint pain; headache,2,0,0,True,0.0001
+036,Common acute symptoms,"I have a runny nose, cough, and mild fever.",hybrid_rule_plus_llm,runny nose; cough; fever,fever,1,0,2,False,0.0001
+037,Common acute symptoms,My eyes are watery and I keep sneezing.,hybrid_rule_plus_llm,watery eyes; sneezing,watery eyes; sneezing,2,0,0,True,29.1977
+038,Common acute symptoms,I have chills and a high temperature.,hybrid_rule_plus_llm,chills; fever,fever,1,0,1,False,0.0001
+039,Common acute symptoms,Recently I feel dizzy when I stand up.,hybrid_rule_plus_llm,dizziness,dizzy,0,1,1,False,1.2956
+040,Common acute symptoms,I have pain in my lower back after lifting a box.,hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0001
+041,Chronic-disease-related symptoms,My legs are swollen and I feel tired all the time.,hybrid_rule_plus_llm,edema; fatigue,fatigue,1,0,1,False,0.0001
+042,Chronic-disease-related symptoms,I feel thirsty often and I urinate frequently.,hybrid_rule_plus_llm,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,1.0372
+043,Chronic-disease-related symptoms,I have been very tired and weak for several weeks.,hybrid_rule_plus_llm,fatigue; weakness,fatigue,1,0,1,False,0.0001
+044,Chronic-disease-related symptoms,My joints hurt every morning.,hybrid_rule_plus_llm,joint pain,joints hurt,0,1,1,False,0.8996
+045,Chronic-disease-related symptoms,I have trouble sleeping almost every night.,hybrid_rule_plus_llm,insomnia,insomnia,1,0,0,True,0.0002
+046,Chronic-disease-related symptoms,I feel low mood and have poor sleep.,hybrid_rule_plus_llm,depression; insomnia,insomnia; depression,2,0,0,True,0.0001
+047,Chronic-disease-related symptoms,I have ongoing lower back pain.,hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0001
+048,Chronic-disease-related symptoms,My feet are swollen and I feel short of breath while walking.,hybrid_rule_plus_llm,edema; dyspnea,edema; short of breath,1,1,1,False,1.0037
+049,Chronic-disease-related symptoms,I get frequent headaches during work.,hybrid_rule_plus_llm,headache,frequent headaches,0,1,1,False,0.7757
+050,Chronic-disease-related symptoms,I have abdominal pain after meals for many weeks.,hybrid_rule_plus_llm,abdominal pain,abdominal pain,1,0,0,True,0.0002
+051,Chronic-disease-related symptoms,"Since yesterday, my legs are swollen and I feel tired all the time.",hybrid_rule_plus_llm,edema; fatigue,fatigue,1,0,1,False,0.0002
+052,Chronic-disease-related symptoms,"Since yesterday, i feel thirsty often and I urinate frequently.",hybrid_rule_plus_llm,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,0.9556
+053,Chronic-disease-related symptoms,"Since yesterday, i have been very tired and weak for several weeks.",hybrid_rule_plus_llm,fatigue; weakness,fatigue,1,0,1,False,0.0001
+054,Chronic-disease-related symptoms,"Since yesterday, my joints hurt every morning.",hybrid_rule_plus_llm,joint pain,joints hurt,0,1,1,False,1.1197
+055,Chronic-disease-related symptoms,"Since yesterday, i have trouble sleeping almost every night.",hybrid_rule_plus_llm,insomnia,insomnia,1,0,0,True,0.0001
+056,Chronic-disease-related symptoms,"Since yesterday, i feel low mood and have poor sleep.",hybrid_rule_plus_llm,depression; insomnia,insomnia; depression,2,0,0,True,0.0001
+057,Chronic-disease-related symptoms,"Since yesterday, i have ongoing lower back pain.",hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0
+058,Chronic-disease-related symptoms,"Since yesterday, my feet are swollen and I feel short of breath while walking.",hybrid_rule_plus_llm,edema; dyspnea,edema; short of breath,1,1,1,False,1.033
+059,Chronic-disease-related symptoms,"Since yesterday, i get frequent headaches during work.",hybrid_rule_plus_llm,headache,frequent headaches,0,1,1,False,1.0336
+060,Chronic-disease-related symptoms,"Since yesterday, i have abdominal pain after meals for many weeks.",hybrid_rule_plus_llm,abdominal pain,abdominal pain,1,0,0,True,0.0002
+061,Chronic-disease-related symptoms,My legs are swollen and I feel tired all the time.,hybrid_rule_plus_llm,edema; fatigue,fatigue,1,0,1,False,0.0001
+062,Chronic-disease-related symptoms,I feel thirsty often and I urinate frequently.,hybrid_rule_plus_llm,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,1.0981
+063,Chronic-disease-related symptoms,I am experiencing been very tired and weak for several weeks.,hybrid_rule_plus_llm,fatigue; weakness,fatigue,1,0,1,False,0.0003
+064,Chronic-disease-related symptoms,My joints hurt every morning.,hybrid_rule_plus_llm,joint pain,joints hurt,0,1,1,False,1.2458
+065,Chronic-disease-related symptoms,I am experiencing trouble sleeping almost every night.,hybrid_rule_plus_llm,insomnia,insomnia,1,0,0,True,0.0001
+066,Chronic-disease-related symptoms,I feel low mood and have poor sleep.,hybrid_rule_plus_llm,depression; insomnia,insomnia; depression,2,0,0,True,0.0001
+067,Chronic-disease-related symptoms,I am experiencing ongoing lower back pain.,hybrid_rule_plus_llm,lower back pain,lower back pain,1,0,0,True,0.0001
+068,Chronic-disease-related symptoms,My feet are swollen and I feel short of breath while walking.,hybrid_rule_plus_llm,edema; dyspnea,edema; short of breath,1,1,1,False,1.1335
+069,Chronic-disease-related symptoms,I get frequent headaches during work.,hybrid_rule_plus_llm,headache,frequent headaches,0,1,1,False,1.1275
+070,Chronic-disease-related symptoms,I am experiencing abdominal pain after meals for many weeks.,hybrid_rule_plus_llm,abdominal pain,abdominal pain,1,0,0,True,0.0002
+071,Chronic-disease-related symptoms,My legs are swollen and Recently I feel tired all the time.,hybrid_rule_plus_llm,edema; fatigue,fatigue,1,0,1,False,0.0001
+072,Chronic-disease-related symptoms,Recently I feel thirsty often and I urinate frequently.,hybrid_rule_plus_llm,excessive thirst; frequent urination,thirsty; urinate frequently,0,2,2,False,1.1845
+073,Chronic-disease-related symptoms,I have been very tired and weak for several weeks.,hybrid_rule_plus_llm,fatigue; weakness,fatigue,1,0,1,False,0.0001
+074,Chronic-disease-related symptoms,My joints hurt every morning.,hybrid_rule_plus_llm,joint pain,joints hurt,0,1,1,False,1.1417
+075,Chronic-disease-related symptoms,I have trouble sleeping almost every night.,hybrid_rule_plus_llm,insomnia,insomnia,1,0,0,True,0.0001
+076,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",hybrid_rule_plus_llm,dizziness; weakness,dizzy; weak,0,2,2,False,1.0431
+077,Colloquial symptom descriptions,My head is pounding and I feel hot.,hybrid_rule_plus_llm,headache; fever,pounding head; feeling hot,0,2,2,False,0.9934
+078,Colloquial symptom descriptions,I feel like throwing up.,hybrid_rule_plus_llm,vomiting,nausea,0,1,1,False,1.0119
+079,Colloquial symptom descriptions,I cannot catch my breath.,hybrid_rule_plus_llm,dyspnea,dyspnea,1,0,0,True,0.9944
+080,Colloquial symptom descriptions,My chest feels tight.,hybrid_rule_plus_llm,chest pain,tightness in chest,0,1,1,False,1.8717
+081,Colloquial symptom descriptions,I have no energy and feel drained.,hybrid_rule_plus_llm,fatigue,no energy; drained,0,2,1,False,1.7227
+082,Colloquial symptom descriptions,My belly is hurting badly.,hybrid_rule_plus_llm,abdominal pain,belly hurting,0,1,1,False,1.0011
+083,Colloquial symptom descriptions,I feel down and cannot sleep well.,hybrid_rule_plus_llm,depression; insomnia,insomnia,1,0,1,False,0.0001
+084,Colloquial symptom descriptions,My body aches all over.,hybrid_rule_plus_llm,joint pain,body aches,0,1,1,False,0.9449
+085,Colloquial symptom descriptions,I feel shaky and lightheaded.,hybrid_rule_plus_llm,dizziness; weakness,shaky; lightheaded,0,2,2,False,1.0372
+086,Colloquial symptom descriptions,"Since yesterday, i just feel off, dizzy, and weak.",hybrid_rule_plus_llm,dizziness; weakness,dizzy; weak,0,2,2,False,1.0399
+087,Colloquial symptom descriptions,"Since yesterday, my head is pounding and I feel hot.",hybrid_rule_plus_llm,headache; fever,pounding head; feeling hot,0,2,2,False,1.1233
+088,Colloquial symptom descriptions,"Since yesterday, i feel like throwing up.",hybrid_rule_plus_llm,vomiting,vomiting,1,0,0,True,0.9808
+089,Colloquial symptom descriptions,"Since yesterday, i cannot catch my breath.",hybrid_rule_plus_llm,dyspnea,cannot catch my breath,0,1,1,False,1.1742
+090,Colloquial symptom descriptions,"Since yesterday, my chest feels tight.",hybrid_rule_plus_llm,chest pain,tight chest,0,1,1,False,1.0255
+091,Colloquial symptom descriptions,"Since yesterday, i have no energy and feel drained.",hybrid_rule_plus_llm,fatigue,no energy; feel drained,0,2,1,False,1.1278
+092,Colloquial symptom descriptions,"Since yesterday, my belly is hurting badly.",hybrid_rule_plus_llm,abdominal pain,belly hurting,0,1,1,False,0.9151
+093,Colloquial symptom descriptions,"Since yesterday, i feel down and cannot sleep well.",hybrid_rule_plus_llm,depression; insomnia,insomnia,1,0,1,False,0.0001
+094,Colloquial symptom descriptions,"Since yesterday, my body aches all over.",hybrid_rule_plus_llm,joint pain,body aches,0,1,1,False,1.2749
+095,Colloquial symptom descriptions,"Since yesterday, i feel shaky and lightheaded.",hybrid_rule_plus_llm,dizziness; weakness,shaky; lightheaded,0,2,2,False,1.0953
+096,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",hybrid_rule_plus_llm,dizziness; weakness,dizzy; weak,0,2,2,False,1.1479
+097,Colloquial symptom descriptions,My head is pounding and I feel hot.,hybrid_rule_plus_llm,headache; fever,pounding head; feeling hot,0,2,2,False,1.1764
+098,Colloquial symptom descriptions,I feel like throwing up.,hybrid_rule_plus_llm,vomiting,vomiting,1,0,0,True,1.0089
+099,Colloquial symptom descriptions,I cannot catch my breath.,hybrid_rule_plus_llm,dyspnea,cannot catch breath,0,1,1,False,1.1149
+100,Colloquial symptom descriptions,My chest feels tight.,hybrid_rule_plus_llm,chest pain,tight chest,0,1,1,False,0.9966
+101,Colloquial symptom descriptions,I am experiencing no energy and feel drained.,hybrid_rule_plus_llm,fatigue,no energy; drained,0,2,1,False,0.9869
+102,Colloquial symptom descriptions,My belly is hurting badly.,hybrid_rule_plus_llm,abdominal pain,belly hurting,0,1,1,False,1.0635
+103,Colloquial symptom descriptions,I feel down and cannot sleep well.,hybrid_rule_plus_llm,depression; insomnia,insomnia,1,0,1,False,0.0002
+104,Colloquial symptom descriptions,My body aches all over.,hybrid_rule_plus_llm,joint pain,body aches,0,1,1,False,1.0045
+105,Colloquial symptom descriptions,I feel shaky and lightheaded.,hybrid_rule_plus_llm,dizziness; weakness,shaky; lightheaded,0,2,2,False,1.1862
+106,Colloquial symptom descriptions,"I just feel off, dizzy, and weak.",hybrid_rule_plus_llm,dizziness; weakness,dizzy; weak,0,2,2,False,1.4094
+107,Colloquial symptom descriptions,My head is pounding and Recently I feel hot.,hybrid_rule_plus_llm,headache; fever,pounding head; feeling hot,0,2,2,False,1.5487
+108,Colloquial symptom descriptions,Recently I feel like throwing up.,hybrid_rule_plus_llm,vomiting,vomiting,1,0,0,True,1.0535
+109,Colloquial symptom descriptions,I cannot catch my breath.,hybrid_rule_plus_llm,dyspnea,cannot catch breath,0,1,1,False,1.131
+110,Colloquial symptom descriptions,My chest feels tight.,hybrid_rule_plus_llm,chest pain,tight chest,0,1,1,False,1.0113
+111,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness.",hybrid_rule_plus_llm,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0003
+112,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue.",hybrid_rule_plus_llm,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0002
+113,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness.",hybrid_rule_plus_llm,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0002
+114,Multi-symptom descriptions,I have lower back pain and pain in my joints.,hybrid_rule_plus_llm,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0003
+115,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue.",hybrid_rule_plus_llm,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0002
+116,Multi-symptom descriptions,"I have fever, chills, and vomiting.",hybrid_rule_plus_llm,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0002
+117,Multi-symptom descriptions,"My legs are swollen, and I feel chest tightness.",hybrid_rule_plus_llm,edema; chest pain,edema; chest pain,2,0,0,True,1.152
+118,Multi-symptom descriptions,"I have headache, dizziness, and nausea.",hybrid_rule_plus_llm,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0002
+119,Multi-symptom descriptions,"I feel tired, weak, and short of breath.",hybrid_rule_plus_llm,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0002
+120,Multi-symptom descriptions,"I have abdominal pain, nausea, and poor sleep.",hybrid_rule_plus_llm,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0002
+121,Multi-symptom descriptions,"Since yesterday, i have chest pain, shortness of breath, and dizziness.",hybrid_rule_plus_llm,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0003
+122,Multi-symptom descriptions,"Since yesterday, i have fever, cough, headache, and fatigue.",hybrid_rule_plus_llm,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+123,Multi-symptom descriptions,"Since yesterday, i feel nausea, stomach pain, and weakness.",hybrid_rule_plus_llm,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+124,Multi-symptom descriptions,"Since yesterday, i have lower back pain and pain in my joints.",hybrid_rule_plus_llm,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0002
+125,Multi-symptom descriptions,"Since yesterday, i have trouble sleeping, low mood, and fatigue.",hybrid_rule_plus_llm,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+126,Multi-symptom descriptions,"Since yesterday, i have fever, chills, and vomiting.",hybrid_rule_plus_llm,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0001
+127,Multi-symptom descriptions,"Since yesterday, my legs are swollen, and I feel chest tightness.",hybrid_rule_plus_llm,edema; chest pain,edema; chest pain,2,0,0,True,1.1474
+128,Multi-symptom descriptions,"Since yesterday, i have headache, dizziness, and nausea.",hybrid_rule_plus_llm,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0001
+129,Multi-symptom descriptions,"Since yesterday, i feel tired, weak, and short of breath.",hybrid_rule_plus_llm,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0001
+130,Multi-symptom descriptions,"Since yesterday, i have abdominal pain, nausea, and poor sleep.",hybrid_rule_plus_llm,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0001
+131,Multi-symptom descriptions,"I am experiencing chest pain, shortness of breath, and dizziness.",hybrid_rule_plus_llm,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0001
+132,Multi-symptom descriptions,"I am experiencing fever, cough, headache, and fatigue.",hybrid_rule_plus_llm,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+133,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness.",hybrid_rule_plus_llm,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+134,Multi-symptom descriptions,I am experiencing lower back pain and pain in my joints.,hybrid_rule_plus_llm,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+135,Multi-symptom descriptions,"I am experiencing trouble sleeping, low mood, and fatigue.",hybrid_rule_plus_llm,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+136,Multi-symptom descriptions,"I am experiencing fever, chills, and vomiting.",hybrid_rule_plus_llm,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0001
+137,Multi-symptom descriptions,"My legs are swollen, and I feel chest tightness.",hybrid_rule_plus_llm,edema; chest pain,edema; chest pain,2,0,0,True,1.0648
+138,Multi-symptom descriptions,"I am experiencing headache, dizziness, and nausea.",hybrid_rule_plus_llm,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0001
+139,Multi-symptom descriptions,"I feel tired, weak, and short of breath.",hybrid_rule_plus_llm,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0001
+140,Multi-symptom descriptions,"I am experiencing abdominal pain, nausea, and poor sleep.",hybrid_rule_plus_llm,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0001
+141,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness.",hybrid_rule_plus_llm,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0002
+142,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue.",hybrid_rule_plus_llm,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+143,Multi-symptom descriptions,"Recently I feel nausea, stomach pain, and weakness.",hybrid_rule_plus_llm,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+144,Multi-symptom descriptions,I have lower back pain and pain in my joints.,hybrid_rule_plus_llm,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+145,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue.",hybrid_rule_plus_llm,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+146,Multi-symptom descriptions,"I have fever, chills, and vomiting.",hybrid_rule_plus_llm,fever; chills; vomiting,fever; nausea,1,1,2,False,0.0001
+147,Multi-symptom descriptions,"My legs are swollen, and Recently I feel chest tightness.",hybrid_rule_plus_llm,edema; chest pain,edema; chest pain,2,0,0,True,1.1827
+148,Multi-symptom descriptions,"I have headache, dizziness, and nausea.",hybrid_rule_plus_llm,headache; dizziness; nausea,headache; nausea,2,0,1,False,0.0001
+149,Multi-symptom descriptions,"Recently I feel tired, weak, and short of breath.",hybrid_rule_plus_llm,fatigue; weakness; dyspnea,fatigue,1,0,2,False,0.0001
+150,Multi-symptom descriptions,"I have abdominal pain, nausea, and poor sleep.",hybrid_rule_plus_llm,abdominal pain; nausea; insomnia,abdominal pain; nausea; insomnia,3,0,0,True,0.0001
+151,Multi-symptom descriptions,"I have chest pain, shortness of breath, and dizziness. It has been bothering me.",hybrid_rule_plus_llm,chest pain; dyspnea; dizziness,chest pain,1,0,2,False,0.0002
+152,Multi-symptom descriptions,"I have fever, cough, headache, and fatigue. It has been bothering me.",hybrid_rule_plus_llm,fever; cough; headache; fatigue,headache; fever; fatigue,3,0,1,False,0.0001
+153,Multi-symptom descriptions,"I feel nausea, stomach pain, and weakness. It has been bothering me.",hybrid_rule_plus_llm,nausea; abdominal pain; weakness,abdominal pain; nausea; fatigue,2,1,1,False,0.0001
+154,Multi-symptom descriptions,I have lower back pain and pain in my joints. It has been bothering me.,hybrid_rule_plus_llm,lower back pain; joint pain,lower back pain; joint pain,2,0,0,True,0.0001
+155,Multi-symptom descriptions,"I have trouble sleeping, low mood, and fatigue. It has been bothering me.",hybrid_rule_plus_llm,insomnia; depression; fatigue,fatigue; insomnia; depression,3,0,0,True,0.0001
+156,Red-flag-like presentations,I have severe chest pain and shortness of breath.,hybrid_rule_plus_llm,chest pain; dyspnea,chest pain,1,0,1,False,0.0001
+157,Red-flag-like presentations,I have sudden weakness on one side of my body.,hybrid_rule_plus_llm,weakness,fatigue,0,1,1,False,0.0001
+158,Red-flag-like presentations,I have chest tightness with sweating and dizziness.,hybrid_rule_plus_llm,chest pain; sweating; dizziness,chest pain; sweating; dizziness,3,0,0,True,5.7523
+159,Red-flag-like presentations,I have a very high fever and confusion.,hybrid_rule_plus_llm,fever; confusion,fever,1,0,1,False,0.0001
+160,Red-flag-like presentations,I have severe abdominal pain with vomiting.,hybrid_rule_plus_llm,abdominal pain; vomiting,abdominal pain; nausea,1,1,1,False,0.0001
+161,Red-flag-like presentations,I cannot breathe properly and my chest hurts.,hybrid_rule_plus_llm,dyspnea; chest pain,cannot breathe properly; chest hurts,0,2,2,False,1.0748
+162,Red-flag-like presentations,I have a terrible headache and blurry vision.,hybrid_rule_plus_llm,headache; blurred vision,headache,1,0,1,False,0.0001
+163,Red-flag-like presentations,I have fainting and chest pain.,hybrid_rule_plus_llm,fainting; chest pain,chest pain,1,0,1,False,0.0001
+164,Red-flag-like presentations,I have severe pelvic pain and dizziness.,hybrid_rule_plus_llm,pelvic pain; dizziness,pelvic pain,1,0,1,False,0.0001
+165,Red-flag-like presentations,I feel extreme weakness and cannot stand.,hybrid_rule_plus_llm,weakness,fatigue,0,1,1,False,0.0001
+166,Red-flag-like presentations,"Since yesterday, i have severe chest pain and shortness of breath.",hybrid_rule_plus_llm,chest pain; dyspnea,chest pain,1,0,1,False,0.0001
+167,Red-flag-like presentations,"Since yesterday, i have sudden weakness on one side of my body.",hybrid_rule_plus_llm,weakness,fatigue,0,1,1,False,0.0001
+168,Red-flag-like presentations,"Since yesterday, i have chest tightness with sweating and dizziness.",hybrid_rule_plus_llm,chest pain; sweating; dizziness,chest pain; sweating; dizziness,3,0,0,True,1.0879
+169,Red-flag-like presentations,"Since yesterday, i have a very high fever and confusion.",hybrid_rule_plus_llm,fever; confusion,fever,1,0,1,False,0.0001
+170,Red-flag-like presentations,"Since yesterday, i have severe abdominal pain with vomiting.",hybrid_rule_plus_llm,abdominal pain; vomiting,abdominal pain; nausea,1,1,1,False,0.0001
+171,Red-flag-like presentations,"Since yesterday, i cannot breathe properly and my chest hurts.",hybrid_rule_plus_llm,dyspnea; chest pain,cannot breathe properly; chest hurts,0,2,2,False,1.0754
+172,Red-flag-like presentations,"Since yesterday, i have a terrible headache and blurry vision.",hybrid_rule_plus_llm,headache; blurred vision,headache,1,0,1,False,0.0001
+173,Red-flag-like presentations,"Since yesterday, i have fainting and chest pain.",hybrid_rule_plus_llm,fainting; chest pain,chest pain,1,0,1,False,0.0001
+174,Red-flag-like presentations,"Since yesterday, i have severe pelvic pain and dizziness.",hybrid_rule_plus_llm,pelvic pain; dizziness,pelvic pain,1,0,1,False,0.0001
+175,Red-flag-like presentations,"Since yesterday, i feel extreme weakness and cannot stand.",hybrid_rule_plus_llm,weakness,fatigue,0,1,1,False,0.0001
+176,Red-flag-like presentations,I am experiencing severe chest pain and shortness of breath.,hybrid_rule_plus_llm,chest pain; dyspnea,chest pain,1,0,1,False,0.0001
+177,Red-flag-like presentations,I am experiencing sudden weakness on one side of my body.,hybrid_rule_plus_llm,weakness,fatigue,0,1,1,False,0.0001
+178,Red-flag-like presentations,I am experiencing chest tightness with sweating and dizziness.,hybrid_rule_plus_llm,chest pain; sweating; dizziness,chest pain; sweating; dizziness,3,0,0,True,1.229
+179,Red-flag-like presentations,I am experiencing a very high fever and confusion.,hybrid_rule_plus_llm,fever; confusion,fever,1,0,1,False,0.0001
+180,Red-flag-like presentations,I am experiencing severe abdominal pain with vomiting.,hybrid_rule_plus_llm,abdominal pain; vomiting,abdominal pain; nausea,1,1,1,False,0.0001
+181,Negative or irrelevant inputs,I want to know about healthy food.,hybrid_rule_plus_llm,none,none,0,0,0,True,1.152
+182,Negative or irrelevant inputs,Can you explain what vitamin C does?,hybrid_rule_plus_llm,none,none,0,0,0,True,1.1118
+183,Negative or irrelevant inputs,I need general fitness advice.,hybrid_rule_plus_llm,none,none,0,0,0,True,1.2161
+184,Negative or irrelevant inputs,What is a balanced diet?,hybrid_rule_plus_llm,none,none,0,0,0,True,0.9369
+185,Negative or irrelevant inputs,Tell me about medical insurance.,hybrid_rule_plus_llm,none,none,0,0,0,True,1.0102
+186,Negative or irrelevant inputs,How can I sleep better in general?,hybrid_rule_plus_llm,insomnia,none,0,0,1,False,1.0034
+187,Negative or irrelevant inputs,I want information about exercise plans.,hybrid_rule_plus_llm,none,none,0,0,0,True,1.0945
+188,Negative or irrelevant inputs,Can you summarize a health article?,hybrid_rule_plus_llm,none,none,0,0,0,True,1.2414
+189,Negative or irrelevant inputs,What is PubMed?,hybrid_rule_plus_llm,none,none,0,0,0,True,0.9487
+190,Negative or irrelevant inputs,I am researching clinical trials.,hybrid_rule_plus_llm,none,none,0,0,0,True,1.1414
+191,Negative or irrelevant inputs,"Since yesterday, i want to know about healthy food.",hybrid_rule_plus_llm,none,none,0,0,0,True,1.0601
+192,Negative or irrelevant inputs,"Since yesterday, can you explain what vitamin C does?",hybrid_rule_plus_llm,none,none,0,0,0,True,1.1919
+193,Negative or irrelevant inputs,"Since yesterday, i need general fitness advice.",hybrid_rule_plus_llm,none,none,0,0,0,True,1.0308
+194,Negative or irrelevant inputs,"Since yesterday, what is a balanced diet?",hybrid_rule_plus_llm,none,none,0,0,0,True,0.9896
+195,Negative or irrelevant inputs,"Since yesterday, tell me about medical insurance.",hybrid_rule_plus_llm,none,none,0,0,0,True,1.4079
+196,Negative or irrelevant inputs,"Since yesterday, how can I sleep better in general?",hybrid_rule_plus_llm,insomnia,none,0,0,1,False,1.0145
+197,Negative or irrelevant inputs,"Since yesterday, i want information about exercise plans.",hybrid_rule_plus_llm,none,none,0,0,0,True,1.1187
+198,Negative or irrelevant inputs,"Since yesterday, can you summarize a health article?",hybrid_rule_plus_llm,none,none,0,0,0,True,0.9964
+199,Negative or irrelevant inputs,"Since yesterday, what is PubMed?",hybrid_rule_plus_llm,none,none,0,0,0,True,1.0742
+200,Negative or irrelevant inputs,"Since yesterday, i am researching clinical trials.",hybrid_rule_plus_llm,none,none,0,0,0,True,1.1234

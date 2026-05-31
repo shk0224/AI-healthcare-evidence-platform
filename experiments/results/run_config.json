@@ -1,0 +1,5 @@
+{
+  "openai_api_key_present": true,
+  "openai_model": "gpt-4o-mini",
+  "note": "If openai_api_key_present is false, llm_only and hybrid fallback used local heuristic extraction. Use an OpenAI API key for manuscript-quality LLM-based results."
+}

@@ -1,0 +1,4 @@
+method,precision,recall,f1_score,exact_match_accuracy,average_latency_seconds,total_true_positive,total_false_positive,total_false_negative,total_cases
+rule_based_only,0.9086,0.4708,0.6202,0.305,0.0001,169,17,190,200
+llm_only,0.5889,0.5905,0.5897,0.42,1.2254,212,148,147,200
+hybrid_rule_plus_llm,0.7028,0.5599,0.6233,0.38,0.6247,201,85,158,200

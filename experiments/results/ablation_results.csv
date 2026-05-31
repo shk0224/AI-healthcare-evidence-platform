@@ -1,0 +1,4 @@
+system_variant,precision,recall,f1_score,exact_match_accuracy,average_latency_seconds
+rule_based_only,0.9086,0.4708,0.6202,0.305,0.0001
+llm_only,0.5889,0.5905,0.5897,0.42,1.2254
+hybrid_rule_plus_llm,0.7028,0.5599,0.6233,0.38,0.6247

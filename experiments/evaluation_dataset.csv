@@ -1,0 +1,201 @@
+case_id,symptom_description,category,gold_standard_symptoms
+001,I have had a fever and headache since last night.,Common acute symptoms,fever; headache
+002,My throat hurts and I have a fever.,Common acute symptoms,sore throat; fever
+003,I feel nauseous and I have been vomiting today.,Common acute symptoms,nausea; vomiting
+004,I have stomach pain with nausea.,Common acute symptoms,abdominal pain; nausea
+005,I woke up with headache and body pain.,Common acute symptoms,headache; joint pain
+006,"I have a runny nose, cough, and mild fever.",Common acute symptoms,runny nose; cough; fever
+007,My eyes are watery and I keep sneezing.,Common acute symptoms,watery eyes; sneezing
+008,I have chills and a high temperature.,Common acute symptoms,chills; fever
+009,I feel dizzy when I stand up.,Common acute symptoms,dizziness
+010,I have pain in my lower back after lifting a box.,Common acute symptoms,lower back pain
+011,"Since yesterday, i have had a fever and headache since last night.",Common acute symptoms,fever; headache
+012,"Since yesterday, my throat hurts and I have a fever.",Common acute symptoms,sore throat; fever
+013,"Since yesterday, i feel nauseous and I have been vomiting today.",Common acute symptoms,nausea; vomiting
+014,"Since yesterday, i have stomach pain with nausea.",Common acute symptoms,abdominal pain; nausea
+015,"Since yesterday, i woke up with headache and body pain.",Common acute symptoms,headache; joint pain
+016,"Since yesterday, i have a runny nose, cough, and mild fever.",Common acute symptoms,runny nose; cough; fever
+017,"Since yesterday, my eyes are watery and I keep sneezing.",Common acute symptoms,watery eyes; sneezing
+018,"Since yesterday, i have chills and a high temperature.",Common acute symptoms,chills; fever
+019,"Since yesterday, i feel dizzy when I stand up.",Common acute symptoms,dizziness
+020,"Since yesterday, i have pain in my lower back after lifting a box.",Common acute symptoms,lower back pain
+021,I am experiencing had a fever and headache since last night.,Common acute symptoms,fever; headache
+022,My throat hurts and I am experiencing a fever.,Common acute symptoms,sore throat; fever
+023,I feel nauseous and I am experiencing been vomiting today.,Common acute symptoms,nausea; vomiting
+024,I am experiencing stomach pain with nausea.,Common acute symptoms,abdominal pain; nausea
+025,I woke up with headache and body pain.,Common acute symptoms,headache; joint pain
+026,"I am experiencing a runny nose, cough, and mild fever.",Common acute symptoms,runny nose; cough; fever
+027,My eyes are watery and I keep sneezing.,Common acute symptoms,watery eyes; sneezing
+028,I am experiencing chills and a high temperature.,Common acute symptoms,chills; fever
+029,I feel dizzy when I stand up.,Common acute symptoms,dizziness
+030,I am experiencing pain in my lower back after lifting a box.,Common acute symptoms,lower back pain
+031,I have had a fever and headache since last night.,Common acute symptoms,fever; headache
+032,My throat hurts and I have a fever.,Common acute symptoms,sore throat; fever
+033,Recently I feel nauseous and I have been vomiting today.,Common acute symptoms,nausea; vomiting
+034,I have stomach pain with nausea.,Common acute symptoms,abdominal pain; nausea
+035,I woke up with headache and body pain.,Common acute symptoms,headache; joint pain
+036,"I have a runny nose, cough, and mild fever.",Common acute symptoms,runny nose; cough; fever
+037,My eyes are watery and I keep sneezing.,Common acute symptoms,watery eyes; sneezing
+038,I have chills and a high temperature.,Common acute symptoms,chills; fever
+039,Recently I feel dizzy when I stand up.,Common acute symptoms,dizziness
+040,I have pain in my lower back after lifting a box.,Common acute symptoms,lower back pain
+041,My legs are swollen and I feel tired all the time.,Chronic-disease-related symptoms,edema; fatigue
+042,I feel thirsty often and I urinate frequently.,Chronic-disease-related symptoms,excessive thirst; frequent urination
+043,I have been very tired and weak for several weeks.,Chronic-disease-related symptoms,fatigue; weakness
+044,My joints hurt every morning.,Chronic-disease-related symptoms,joint pain
+045,I have trouble sleeping almost every night.,Chronic-disease-related symptoms,insomnia
+046,I feel low mood and have poor sleep.,Chronic-disease-related symptoms,depression; insomnia
+047,I have ongoing lower back pain.,Chronic-disease-related symptoms,lower back pain
+048,My feet are swollen and I feel short of breath while walking.,Chronic-disease-related symptoms,edema; dyspnea
+049,I get frequent headaches during work.,Chronic-disease-related symptoms,headache
+050,I have abdominal pain after meals for many weeks.,Chronic-disease-related symptoms,abdominal pain
+051,"Since yesterday, my legs are swollen and I feel tired all the time.",Chronic-disease-related symptoms,edema; fatigue
+052,"Since yesterday, i feel thirsty often and I urinate frequently.",Chronic-disease-related symptoms,excessive thirst; frequent urination
+053,"Since yesterday, i have been very tired and weak for several weeks.",Chronic-disease-related symptoms,fatigue; weakness
+054,"Since yesterday, my joints hurt every morning.",Chronic-disease-related symptoms,joint pain
+055,"Since yesterday, i have trouble sleeping almost every night.",Chronic-disease-related symptoms,insomnia
+056,"Since yesterday, i feel low mood and have poor sleep.",Chronic-disease-related symptoms,depression; insomnia
+057,"Since yesterday, i have ongoing lower back pain.",Chronic-disease-related symptoms,lower back pain
+058,"Since yesterday, my feet are swollen and I feel short of breath while walking.",Chronic-disease-related symptoms,edema; dyspnea
+059,"Since yesterday, i get frequent headaches during work.",Chronic-disease-related symptoms,headache
+060,"Since yesterday, i have abdominal pain after meals for many weeks.",Chronic-disease-related symptoms,abdominal pain
+061,My legs are swollen and I feel tired all the time.,Chronic-disease-related symptoms,edema; fatigue
+062,I feel thirsty often and I urinate frequently.,Chronic-disease-related symptoms,excessive thirst; frequent urination
+063,I am experiencing been very tired and weak for several weeks.,Chronic-disease-related symptoms,fatigue; weakness
+064,My joints hurt every morning.,Chronic-disease-related symptoms,joint pain
+065,I am experiencing trouble sleeping almost every night.,Chronic-disease-related symptoms,insomnia
+066,I feel low mood and have poor sleep.,Chronic-disease-related symptoms,depression; insomnia
+067,I am experiencing ongoing lower back pain.,Chronic-disease-related symptoms,lower back pain
+068,My feet are swollen and I feel short of breath while walking.,Chronic-disease-related symptoms,edema; dyspnea
+069,I get frequent headaches during work.,Chronic-disease-related symptoms,headache
+070,I am experiencing abdominal pain after meals for many weeks.,Chronic-disease-related symptoms,abdominal pain
+071,My legs are swollen and Recently I feel tired all the time.,Chronic-disease-related symptoms,edema; fatigue
+072,Recently I feel thirsty often and I urinate frequently.,Chronic-disease-related symptoms,excessive thirst; frequent urination
+073,I have been very tired and weak for several weeks.,Chronic-disease-related symptoms,fatigue; weakness
+074,My joints hurt every morning.,Chronic-disease-related symptoms,joint pain
+075,I have trouble sleeping almost every night.,Chronic-disease-related symptoms,insomnia
+076,"I just feel off, dizzy, and weak.",Colloquial symptom descriptions,dizziness; weakness
+077,My head is pounding and I feel hot.,Colloquial symptom descriptions,headache; fever
+078,I feel like throwing up.,Colloquial symptom descriptions,vomiting
+079,I cannot catch my breath.,Colloquial symptom descriptions,dyspnea
+080,My chest feels tight.,Colloquial symptom descriptions,chest pain
+081,I have no energy and feel drained.,Colloquial symptom descriptions,fatigue
+082,My belly is hurting badly.,Colloquial symptom descriptions,abdominal pain
+083,I feel down and cannot sleep well.,Colloquial symptom descriptions,depression; insomnia
+084,My body aches all over.,Colloquial symptom descriptions,joint pain
+085,I feel shaky and lightheaded.,Colloquial symptom descriptions,dizziness; weakness
+086,"Since yesterday, i just feel off, dizzy, and weak.",Colloquial symptom descriptions,dizziness; weakness
+087,"Since yesterday, my head is pounding and I feel hot.",Colloquial symptom descriptions,headache; fever
+088,"Since yesterday, i feel like throwing up.",Colloquial symptom descriptions,vomiting
+089,"Since yesterday, i cannot catch my breath.",Colloquial symptom descriptions,dyspnea
+090,"Since yesterday, my chest feels tight.",Colloquial symptom descriptions,chest pain
+091,"Since yesterday, i have no energy and feel drained.",Colloquial symptom descriptions,fatigue
+092,"Since yesterday, my belly is hurting badly.",Colloquial symptom descriptions,abdominal pain
+093,"Since yesterday, i feel down and cannot sleep well.",Colloquial symptom descriptions,depression; insomnia
+094,"Since yesterday, my body aches all over.",Colloquial symptom descriptions,joint pain
+095,"Since yesterday, i feel shaky and lightheaded.",Colloquial symptom descriptions,dizziness; weakness
+096,"I just feel off, dizzy, and weak.",Colloquial symptom descriptions,dizziness; weakness
+097,My head is pounding and I feel hot.,Colloquial symptom descriptions,headache; fever
+098,I feel like throwing up.,Colloquial symptom descriptions,vomiting
+099,I cannot catch my breath.,Colloquial symptom descriptions,dyspnea
+100,My chest feels tight.,Colloquial symptom descriptions,chest pain
+101,I am experiencing no energy and feel drained.,Colloquial symptom descriptions,fatigue
+102,My belly is hurting badly.,Colloquial symptom descriptions,abdominal pain
+103,I feel down and cannot sleep well.,Colloquial symptom descriptions,depression; insomnia
+104,My body aches all over.,Colloquial symptom descriptions,joint pain
+105,I feel shaky and lightheaded.,Colloquial symptom descriptions,dizziness; weakness
+106,"I just feel off, dizzy, and weak.",Colloquial symptom descriptions,dizziness; weakness
+107,My head is pounding and Recently I feel hot.,Colloquial symptom descriptions,headache; fever
+108,Recently I feel like throwing up.,Colloquial symptom descriptions,vomiting
+109,I cannot catch my breath.,Colloquial symptom descriptions,dyspnea
+110,My chest feels tight.,Colloquial symptom descriptions,chest pain
+111,"I have chest pain, shortness of breath, and dizziness.",Multi-symptom descriptions,chest pain; dyspnea; dizziness
+112,"I have fever, cough, headache, and fatigue.",Multi-symptom descriptions,fever; cough; headache; fatigue
+113,"I feel nausea, stomach pain, and weakness.",Multi-symptom descriptions,nausea; abdominal pain; weakness
+114,I have lower back pain and pain in my joints.,Multi-symptom descriptions,lower back pain; joint pain
+115,"I have trouble sleeping, low mood, and fatigue.",Multi-symptom descriptions,insomnia; depression; fatigue
+116,"I have fever, chills, and vomiting.",Multi-symptom descriptions,fever; chills; vomiting
+117,"My legs are swollen, and I feel chest tightness.",Multi-symptom descriptions,edema; chest pain
+118,"I have headache, dizziness, and nausea.",Multi-symptom descriptions,headache; dizziness; nausea
+119,"I feel tired, weak, and short of breath.",Multi-symptom descriptions,fatigue; weakness; dyspnea
+120,"I have abdominal pain, nausea, and poor sleep.",Multi-symptom descriptions,abdominal pain; nausea; insomnia
+121,"Since yesterday, i have chest pain, shortness of breath, and dizziness.",Multi-symptom descriptions,chest pain; dyspnea; dizziness
+122,"Since yesterday, i have fever, cough, headache, and fatigue.",Multi-symptom descriptions,fever; cough; headache; fatigue
+123,"Since yesterday, i feel nausea, stomach pain, and weakness.",Multi-symptom descriptions,nausea; abdominal pain; weakness
+124,"Since yesterday, i have lower back pain and pain in my joints.",Multi-symptom descriptions,lower back pain; joint pain
+125,"Since yesterday, i have trouble sleeping, low mood, and fatigue.",Multi-symptom descriptions,insomnia; depression; fatigue
+126,"Since yesterday, i have fever, chills, and vomiting.",Multi-symptom descriptions,fever; chills; vomiting
+127,"Since yesterday, my legs are swollen, and I feel chest tightness.",Multi-symptom descriptions,edema; chest pain
+128,"Since yesterday, i have headache, dizziness, and nausea.",Multi-symptom descriptions,headache; dizziness; nausea
+129,"Since yesterday, i feel tired, weak, and short of breath.",Multi-symptom descriptions,fatigue; weakness; dyspnea
+130,"Since yesterday, i have abdominal pain, nausea, and poor sleep.",Multi-symptom descriptions,abdominal pain; nausea; insomnia
+131,"I am experiencing chest pain, shortness of breath, and dizziness.",Multi-symptom descriptions,chest pain; dyspnea; dizziness
+132,"I am experiencing fever, cough, headache, and fatigue.",Multi-symptom descriptions,fever; cough; headache; fatigue
+133,"I feel nausea, stomach pain, and weakness.",Multi-symptom descriptions,nausea; abdominal pain; weakness
+134,I am experiencing lower back pain and pain in my joints.,Multi-symptom descriptions,lower back pain; joint pain
+135,"I am experiencing trouble sleeping, low mood, and fatigue.",Multi-symptom descriptions,insomnia; depression; fatigue
+136,"I am experiencing fever, chills, and vomiting.",Multi-symptom descriptions,fever; chills; vomiting
+137,"My legs are swollen, and I feel chest tightness.",Multi-symptom descriptions,edema; chest pain
+138,"I am experiencing headache, dizziness, and nausea.",Multi-symptom descriptions,headache; dizziness; nausea
+139,"I feel tired, weak, and short of breath.",Multi-symptom descriptions,fatigue; weakness; dyspnea
+140,"I am experiencing abdominal pain, nausea, and poor sleep.",Multi-symptom descriptions,abdominal pain; nausea; insomnia
+141,"I have chest pain, shortness of breath, and dizziness.",Multi-symptom descriptions,chest pain; dyspnea; dizziness
+142,"I have fever, cough, headache, and fatigue.",Multi-symptom descriptions,fever; cough; headache; fatigue
+143,"Recently I feel nausea, stomach pain, and weakness.",Multi-symptom descriptions,nausea; abdominal pain; weakness
+144,I have lower back pain and pain in my joints.,Multi-symptom descriptions,lower back pain; joint pain
+145,"I have trouble sleeping, low mood, and fatigue.",Multi-symptom descriptions,insomnia; depression; fatigue
+146,"I have fever, chills, and vomiting.",Multi-symptom descriptions,fever; chills; vomiting
+147,"My legs are swollen, and Recently I feel chest tightness.",Multi-symptom descriptions,edema; chest pain
+148,"I have headache, dizziness, and nausea.",Multi-symptom descriptions,headache; dizziness; nausea
+149,"Recently I feel tired, weak, and short of breath.",Multi-symptom descriptions,fatigue; weakness; dyspnea
+150,"I have abdominal pain, nausea, and poor sleep.",Multi-symptom descriptions,abdominal pain; nausea; insomnia
+151,"I have chest pain, shortness of breath, and dizziness. It has been bothering me.",Multi-symptom descriptions,chest pain; dyspnea; dizziness
+152,"I have fever, cough, headache, and fatigue. It has been bothering me.",Multi-symptom descriptions,fever; cough; headache; fatigue
+153,"I feel nausea, stomach pain, and weakness. It has been bothering me.",Multi-symptom descriptions,nausea; abdominal pain; weakness
+154,I have lower back pain and pain in my joints. It has been bothering me.,Multi-symptom descriptions,lower back pain; joint pain
+155,"I have trouble sleeping, low mood, and fatigue. It has been bothering me.",Multi-symptom descriptions,insomnia; depression; fatigue
+156,I have severe chest pain and shortness of breath.,Red-flag-like presentations,chest pain; dyspnea
+157,I have sudden weakness on one side of my body.,Red-flag-like presentations,weakness
+158,I have chest tightness with sweating and dizziness.,Red-flag-like presentations,chest pain; sweating; dizziness
+159,I have a very high fever and confusion.,Red-flag-like presentations,fever; confusion
+160,I have severe abdominal pain with vomiting.,Red-flag-like presentations,abdominal pain; vomiting
+161,I cannot breathe properly and my chest hurts.,Red-flag-like presentations,dyspnea; chest pain
+162,I have a terrible headache and blurry vision.,Red-flag-like presentations,headache; blurred vision
+163,I have fainting and chest pain.,Red-flag-like presentations,fainting; chest pain
+164,I have severe pelvic pain and dizziness.,Red-flag-like presentations,pelvic pain; dizziness
+165,I feel extreme weakness and cannot stand.,Red-flag-like presentations,weakness
+166,"Since yesterday, i have severe chest pain and shortness of breath.",Red-flag-like presentations,chest pain; dyspnea
+167,"Since yesterday, i have sudden weakness on one side of my body.",Red-flag-like presentations,weakness
+168,"Since yesterday, i have chest tightness with sweating and dizziness.",Red-flag-like presentations,chest pain; sweating; dizziness
+169,"Since yesterday, i have a very high fever and confusion.",Red-flag-like presentations,fever; confusion
+170,"Since yesterday, i have severe abdominal pain with vomiting.",Red-flag-like presentations,abdominal pain; vomiting
+171,"Since yesterday, i cannot breathe properly and my chest hurts.",Red-flag-like presentations,dyspnea; chest pain
+172,"Since yesterday, i have a terrible headache and blurry vision.",Red-flag-like presentations,headache; blurred vision
+173,"Since yesterday, i have fainting and chest pain.",Red-flag-like presentations,fainting; chest pain
+174,"Since yesterday, i have severe pelvic pain and dizziness.",Red-flag-like presentations,pelvic pain; dizziness
+175,"Since yesterday, i feel extreme weakness and cannot stand.",Red-flag-like presentations,weakness
+176,I am experiencing severe chest pain and shortness of breath.,Red-flag-like presentations,chest pain; dyspnea
+177,I am experiencing sudden weakness on one side of my body.,Red-flag-like presentations,weakness
+178,I am experiencing chest tightness with sweating and dizziness.,Red-flag-like presentations,chest pain; sweating; dizziness
+179,I am experiencing a very high fever and confusion.,Red-flag-like presentations,fever; confusion
+180,I am experiencing severe abdominal pain with vomiting.,Red-flag-like presentations,abdominal pain; vomiting
+181,I want to know about healthy food.,Negative or irrelevant inputs,none
+182,Can you explain what vitamin C does?,Negative or irrelevant inputs,none
+183,I need general fitness advice.,Negative or irrelevant inputs,none
+184,What is a balanced diet?,Negative or irrelevant inputs,none
+185,Tell me about medical insurance.,Negative or irrelevant inputs,none
+186,How can I sleep better in general?,Negative or irrelevant inputs,insomnia
+187,I want information about exercise plans.,Negative or irrelevant inputs,none
+188,Can you summarize a health article?,Negative or irrelevant inputs,none
+189,What is PubMed?,Negative or irrelevant inputs,none
+190,I am researching clinical trials.,Negative or irrelevant inputs,none
+191,"Since yesterday, i want to know about healthy food.",Negative or irrelevant inputs,none
+192,"Since yesterday, can you explain what vitamin C does?",Negative or irrelevant inputs,none
+193,"Since yesterday, i need general fitness advice.",Negative or irrelevant inputs,none
+194,"Since yesterday, what is a balanced diet?",Negative or irrelevant inputs,none
+195,"Since yesterday, tell me about medical insurance.",Negative or irrelevant inputs,none
+196,"Since yesterday, how can I sleep better in general?",Negative or irrelevant inputs,insomnia
+197,"Since yesterday, i want information about exercise plans.",Negative or irrelevant inputs,none
+198,"Since yesterday, can you summarize a health article?",Negative or irrelevant inputs,none
+199,"Since yesterday, what is PubMed?",Negative or irrelevant inputs,none
+200,"Since yesterday, i am researching clinical trials.",Negative or irrelevant inputs,none

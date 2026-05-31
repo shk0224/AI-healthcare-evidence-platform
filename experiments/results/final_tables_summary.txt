@@ -1,0 +1,17 @@
+TABLE 1: Symptom Extraction Performance
+              method  precision  recall  f1_score  exact_match_accuracy  average_latency_seconds  total_true_positive  total_false_positive  total_false_negative  total_cases
+     rule_based_only     0.9086  0.4708    0.6202                 0.305                   0.0001                  169                    17                   190          200
+            llm_only     0.5889  0.5905    0.5897                 0.420                   1.2254                  212                   148                   147          200
+hybrid_rule_plus_llm     0.7028  0.5599    0.6233                 0.380                   0.6247                  201                    85                   158          200
+
+TABLE 2: Ablation Analysis
+      system_variant  precision  recall  f1_score  exact_match_accuracy  average_latency_seconds
+     rule_based_only     0.9086  0.4708    0.6202                 0.305                   0.0001
+            llm_only     0.5889  0.5905    0.5897                 0.420                   1.2254
+hybrid_rule_plus_llm     0.7028  0.5599    0.6233                 0.380                   0.6247
+
+TABLE 3: PubMed Retrieval Performance - Automatic Pre-Scoring
+{'total_cases': 182, 'top1_relevance': 0.9945, 'top3_relevance': 0.9945, 'top5_relevance': 0.9945, 'mean_relevance_0_to_2': 1.702, 'mean_latency_seconds': np.float64(1.7684)}
+
+TABLE 4: ClinicalTrials.gov Retrieval Performance - Automatic Pre-Scoring
+{'total_cases': 182, 'top1_relevance': 0.8901, 'top3_relevance': 0.8901, 'top5_relevance': 0.8901, 'mean_relevance_0_to_2': 1.1637, 'mean_latency_seconds': np.float64(0.6582)}

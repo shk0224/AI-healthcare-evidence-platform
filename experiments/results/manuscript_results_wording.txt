@@ -1,0 +1,10 @@
+Experimental Results Draft Wording
+
+The framework was evaluated using a synthetic but realistic dataset of 200 free-text symptom-description scenarios. The dataset covered common acute symptoms, chronic-disease-related symptoms, colloquial symptom descriptions, multi-symptom descriptions, red-flag-like presentations, and negative or irrelevant inputs. Each case was assigned gold-standard symptom labels, and equivalent lay expressions were normalized to common symptom terms before scoring.
+
+Symptom extraction was evaluated using three methods: rule-based extraction, LLM-only extraction, and the proposed hybrid rule-based plus LLM fallback method. The evaluation measured precision, recall, F1-score, exact-match accuracy, and average latency per case. The extraction results are saved in extraction_metrics.csv and should be inserted into the manuscript after manual verification of the run configuration.
+
+The retrieval modules were evaluated as information retrieval components. For PubMed retrieval, extracted symptom terms were used as search queries and the top retrieved records were assessed using top-k relevance and latency. For ClinicalTrials.gov retrieval, returned studies were evaluated as preliminary trial-discovery outputs rather than definitive eligibility matches. The current output files include automatic relevance pre-scoring. For publication-quality results, the review files should be manually reviewed and the manual relevance columns should be used for final reporting.
+
+Important manuscript note:
+If the LLM extraction was run without an OPENAI_API_KEY, the LLM-only and hybrid fallback results are not true LLM results. They should not be reported as LLM-based experimental findings. Re-run with OPENAI_API_KEY enabled before using final numbers in the paper.
